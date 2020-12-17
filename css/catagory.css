@@ -1,0 +1,111 @@
+.business_type {
+	float: ; background-color:#EDEDED; margin:5px 0px 5px 5px; padding:1px 10px 1px 10px; line-height:20px;  font-size:13px; -webkit-border-radius:4px; -moz-border-radius:4px;
+    border-radius:4px; behavior:url(css/PIE.htc); position:relative;overflow: auto;
+}
+.business_type_close {
+	float: right; background-color:#757679; margin:2px 0px 0px 5px; padding:1px 5px 1px 5px; line-height:14px; color:#fff; font-size:12px; -webkit-border-radius:30px; -moz-border-radius:30px;
+    border-radius:30px; behavior:url(css/PIE.htc); position:relative;overflow: auto;
+}
+
+
+.business_table_row{
+	border:1px;
+	border-color: #a2a3a1;
+
+}
+
+
+.selected_char
+{
+	font-weight:bold;
+	color:#CC443D;
+}
+.industry_lebel{
+	font-weight:normal;
+    padding-left: 5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+.items{
+	background-color: #EDEDED;
+    padding: 0px;
+    border: 1px solid white;
+    height: 30px;
+}
+
+.items_right:hover{
+    background-color:#C6C4C5;
+    cursor: pointer;
+
+}
+
+.items_left:hover{
+    background-color:#C6C4C5;
+    cursor: pointer;
+
+}
+.Itemdisable
+{
+	float: left;
+	width: 100%;
+	background-color:#EDEDED;
+    padding: 0px;
+    padding-top: 3px;
+    padding-left: 9px;
+    border: 1px solid white;
+	line-height:20px;
+     
+    font-size: 13px;
+	overflow: auto;
+	position:relative;
+}
+.items_left{
+	float: left;
+	width: 100%;
+    padding: 0px;
+	line-height:20px;
+   
+	overflow: auto;
+	position:relative;
+}
+.items_right{
+	float: right;
+	width:50%;
+    padding: 0px;
+    padding-top: 3px;
+    padding-left: 9px;
+	line-height:20px;
+    border: 1px solid white;
+    height: 30px;
+    font-size: 13px;
+	overflow: auto;
+	position:relative;
+}
+
+.selected{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid lightgray;
+    margin: 0px;
+
+    
+}
+.business_header{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-left: 10px;
+
+}
+.instruction{
+	font-family: sans-serif;
+	font-size: 11px;
+	padding-left: 10px;
+
+}
+.sel_header{
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 5px 0 0 5px;
+	
+}

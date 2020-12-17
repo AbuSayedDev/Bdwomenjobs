@@ -1,0 +1,84 @@
+*,body,html,p,h1,h2,h3,h4,h5,h6,span{
+	font-family:'SolaimanLipi', Open Sans, ui-icon;
+}
+.searchPanelContainer h1{
+	font-family: 'SolaimanLipi';
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 14px;
+	font-weight: bold;
+}
+.division .btn{
+	padding: 4px;
+}
+.division .btn,.quick-links ul li a{
+	font-size: 14px;
+}
+.navbar-user{
+	font-size: 14px;
+	font-weight: bold;
+}
+.sliderSidebar h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.counter h6 {
+    font-size: 20px;
+}
+.counter p {
+	line-height: 14px;
+}
+.companyDetails ul li a{
+	font-size: 14px;
+}
+.category-list ul li a{
+	font-size: 16px;
+}
+.govtJobs a{
+	font-size: 16px;
+}
+.promoArea h2{
+	font-size: 26px;
+}
+
+.live-jobs, .companies, .apply-online{
+	float: left;
+	overflow: hidden;
+	width: 170px;
+}
+.live-jobs, .companies, .apply-online{
+	float: left;
+	overflow: hidden;
+	width: 160px;
+}
+.companies{
+	width: 180px;
+}
+.apply-online{
+	width: 245px;
+}
+.fatFooter ul li a, .fatFooter h4{
+	font-family: 'SolaimanLipi';
+}
+/*Create account*/
+.createAccount .modal-header h4{
+	font-family: 'SolaimanLipi';
+	font-size: 28px;
+	margin-bottom: 0px;
+}
+.createAccount .modal-header p{
+	font-size: 16px;
+}
+.job-seekers h5, .for-employers h5{
+	font-size: 22px;
+}
+.job-seekers p, .for-employers p{
+	font-size: 16px;
+}
+.job-seekers .btn, .for-employers .btn{
+	font-family: 'SolaimanLipi';
+	font-size: 16px;
+}
+.job-seekers, .for-employers{
+	min-height: 300px;
+}

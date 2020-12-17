@@ -1,0 +1,247 @@
+*,body,html,p,h1,h2,h3,h4,h5,h6,span{
+	font-family:SolaimanLipi, Open Sans, sans-serif, ui-icon;
+}
+.searchPanelContainer h1{
+	font-family: 'SolaimanLipi';
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 16px;
+	font-family: 'SolaimanLipi', Open Sans;
+	white-space: nowrap;
+	font-weight: normal;
+}
+.division .btn{
+	padding: 4px 3px;
+}
+.division .btn,.quick-links ul li a{
+	font-size: 14px;
+}
+.navbar-user{
+	font-size: 14px;
+	font-weight: bold;
+}
+.sliderSidebar h4{
+    font-size: 18px;
+    font-weight: normal;
+}
+.counter p {
+	line-height: 14px;
+	/*font-family: 'SolaimanLipi';*/
+	font-weight: bold;
+}
+.companyDetails ul li a{
+	font-size: 14px;
+}
+.category-list ul li{
+	/*margin-bottom: 13px;*/
+}
+.category-list ul li a{
+	font-size: 16px;
+}
+.govtJobs a{
+	font-size: 16px;
+}
+.promoArea h2{
+	font-size: 26px;
+}
+
+.live-jobs, .companies, .apply-online{
+	float: left;
+	overflow: hidden;
+	width: 160px;
+}
+.fatFooter ul li a{
+	font-family: 'SolaimanLipi' !important;
+	font-size: 16px;
+}
+.fatFooter h4{
+	font-family: 'SolaimanLipi' !important;
+	font-size: 20px;
+}
+.f-contacts{
+	font-size: 18px;
+}
+.f-contacts span{
+	font-size: 26px;
+}
+/*Create account*/
+.createAccount .modal-header h4{
+	font-family: 'SolaimanLipi';
+	font-size: 28px;
+	margin-bottom: 0px;
+}
+.createAccount .modal-header p{
+	font-size: 16px;
+}
+.job-seekers h5, .for-employers h5{
+	font-size: 22px;
+}
+.job-seekers p, .for-employers p{
+	font-size: 16px;
+}
+.job-seekers .btn, .for-employers .btn{
+	font-family: 'SolaimanLipi';
+	font-size: 16px;
+}
+.job-seekers, .for-employers{
+	min-height: 300px;
+	padding:40px;
+}
+.navbar-user .btn-login{
+	font-size: 15px;
+	padding: 4px 12px;
+	font-family: 'SolaimanLipi';
+}
+.navbar-user .btn-login:hover{
+	background-color: #39873d;
+	color: #ffffff;
+}
+.navbar-user ul li.offset-mobile a{
+	font-size: 16px;
+	color: #424242;
+	font-weight:normal;
+}
+.navbar-user ul li.offset-mobile a:hover{
+	color: #2F64A3;
+}
+.counter h6 {
+    font-size: 20px;
+}
+.companies{
+	width: 140px;
+}
+.apply-online{
+	width: 280px;
+}
+.navbar-user > .btn-login{
+	font-family: 'SolaimanLipi', Open Sans;
+}
+.companyDetails h5{
+	font-size: 14px;
+	font-weight: bold;
+}
+.sidebar-common a.btn-view-more {
+    font-size: 15px;
+    font-family: SolaimanLipi;
+}
+.search-form .btn{
+	padding: 7px 31px;
+	font-family: 'SolaimanLipi';
+}
+.topBar ul.brands li a{
+	font-size: 15px;
+	font-family: 'SolaimanLipi';
+	padding: 7px 10px 7px 10px;
+}
+.lang-btn .btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+}
+a.for-employers span{
+	font-size: 12px;
+}
+#toTop{
+	padding-top: 5px;
+}
+.lang-btn .btn:last-child{
+	padding-top: 1px;
+}
+.contact-btn i{
+	font-size: 12px;
+} 
+.login-form .tab .btn{
+	font-family: 'SolaimanLipi';
+	font-size: 16px;
+}
+/*.sidebar-common{
+    height: 201px;
+}*/
+@media screen and (min-width: 991px) {
+	.jobCategory .tab{
+		height: 396px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.jobCategory .tab{
+		height: 406px;
+	}
+}
+
+.login-form .btn-login{
+	font-size: 16px;
+}
+.login-form .btn-create{
+	font-size: 14px;
+}
+.for-pass{
+	font-size: 16px;
+}
+.login-form .new-account p{
+	font-size: 16px;
+}
+.sidebar-common h4{
+	font-family: 'Montserrat', sans-serif !important;
+}
+.sidebar-common a.btn-view-more{
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 11px;
+}
+a.btn-view-more{
+	font-family: 'Montserrat', sans-serif !important;
+}
+.training-details h5{
+	font-family: 'Montserrat', sans-serif !important;
+}
+.training-details p{
+	font-family: 'Open Sans', sans-serif !important;
+}
+.bdjobsTraining h4{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar-option .nav > li > a {
+     padding: 21px 15px 21px 15px;
+	 font-size:16px;
+	 font-weight:normal;
+}
+.navbar-user ul li a{     
+    font-family: 'SolaimanLipi';
+	font-size: 14px;
+}
+.t-txt{ 
+	font-family: 'SolaimanLipi';
+	font-size: 16px;
+}
+.des-txt{ 
+	font-family: 'SolaimanLipi';
+	font-size: 14px;
+}
+.login-form-n .cart-emp{
+	min-height:144px;
+}
+.cart-mbdj-r .btn-wraper .btn {
+    font-family: 'SolaimanLipi';
+	font-size: 15px;
+}
+.cart-emp-r .btn-wraper .btn {
+    font-family: 'SolaimanLipi';
+	font-size: 15px;
+}
+.cart-mbdj-r .btn-wraper .ca-btn {
+    font-family: 'SolaimanLipi';
+	font-size: 14px;
+}
+.cart-emp-r .btn-wraper .ca-btn {
+    font-family: 'SolaimanLipi';
+	font-size: 14px;
+}
+@media screen and (min-width:768px) and (max-width:991px){    
+    .navbar-option .nav > li > a {
+		 font-size:11px;
+	}
+	.navbar-user ul li a{
+		font-size: 11px !important;
+	}
+}

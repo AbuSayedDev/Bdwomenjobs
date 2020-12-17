@@ -1,0 +1,25 @@
+/*bdjobs.com*/
+
+/*table set 1*/
+.t {background: url(../errormessages/404.htm) 0 0 repeat-x; width: 100%;background-color:#f1f2f3; }
+.b {background: url(../errormessages/404.htm) 0 100% repeat-x}
+.l {background: url(../errormessages/404.htm) 0 0 repeat-y; }
+.r {background: url(../errormessages/404.htm) 100% 0 repeat-y;}
+.bl {background: url(../errormessages/404.htm) 0 100% no-repeat;}
+.br {background: url(../errormessages/404.htm) 100% 100% no-repeat;}
+.tl {background: url(../errormessages/404.htm) 0 0 no-repeat}
+.tr {background: url(../errormessages/404.htm) 100% 0 no-repeat; padding:1px}
+
+/*table set 2*/
+.t2 {background: url(../errormessages/404.htm) 0 0 repeat-x; width: 100%;background-color:#f1f2f3; }
+.b2 {background: url(../errormessages/404.htm) 0 100% repeat-x}
+.l2 {background: url(../errormessages/404.htm) 0 0 repeat-y; }
+.r2 {background: url(../errormessages/404.htm) 100% 0 repeat-y;}
+.bl2 {background: url(../errormessages/404.htm) 0 100% no-repeat;}
+.br2 {background: url(../errormessages/404.htm) 100% 100% no-repeat;}
+.tl2 {background: url(../errormessages/404.htm) 0 0 no-repeat}
+.tr2 {background: url(../errormessages/404.htm) 100% 0 no-repeat; padding:10px}
+
+
+.colbg{background: url(../errormessages/404.htm) 0 0 repeat-x; height:37px; width: 100%; }
+.bottomHorzLine {background: url(../errormessages/404.htm) 0 100% repeat-x}

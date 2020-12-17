@@ -1,0 +1,143 @@
+.icon{
+	overflow: hidden;
+}
+.svg-icon-user-find:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-user-find.svg);
+}
+.svg-icon-user-o:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-user-o.svg);
+}
+.svg-icon-user-verification:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-user-verification.svg);
+}
+.svg-icon-user-success:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-user-success.svg);
+}
+.svg-icon-user-failed:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-user-failed.svg);
+}
+.svg-icon-envelope:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-envelope.svg);
+}
+.svg-icon-user-phone:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-user-phone.svg);
+}
+.svg-icon-lock-check:before{
+	content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-lock-check.svg);
+}
+.svg-icon-expired:before{
+    content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-expired.svg);
+}
+.icon-lg{
+	height: 64px;
+	width: 64px;
+	display: inline-block;
+}
+.float-none{
+	float: none !important;
+}
+.mt-10{
+	margin-top: 10px !important;
+}
+.mt-20{
+	margin-top: 20px !important;
+}
+.mt-30{
+	margin-top: 30px !important;
+}
+.mt-40{
+	margin-top: 40px !important;
+}
+.mb-20{
+	margin-bottom: 20px !important;
+}
+.mb-30{
+	margin-bottom: 30px !important;
+}
+.mb-40{
+	margin-bottom: 40px !important;
+}
+p.sm{
+	font-size: 14px;
+}
+.signin-box .radio-list{
+}
+.signin-form-container {
+    margin: 20px 0px 0px 0px;
+    min-height: auto;
+}
+.signin-box-footer{
+	margin-bottom: 40px;
+}
+.signin-box .btn-danger{
+	background-color: #DC362C;
+}
+.signin-box .btn-signin:hover{
+	background-color: #5A913A;
+	color: #ffffff;
+}
+.btn-danger:hover{
+	background-color: #D2362C !important;
+	color: #ffffff !important;
+}
+.create-account .btn:hover{
+	background-color: #2F64A3;
+	color: #ffffff;
+}
+p.radio-ins{
+	font-size: 14px;
+}
+.fw-600{
+	font-weight: 600;
+}
+.radio-list .radio{
+	margin-bottom: 15px;
+}
+.help-block.sm{
+	font-size: 13px;
+}
+
+/* Social button reset user */
+.btn-social{
+	 padding: 12px 30px !important;
+   border-radius: 50px !important;
+   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.24);
+}
+.btn-social.facebook{
+	padding: 12px 30px;
+	border-radius: 50px;
+	color: #ffffff;
+	background-color: #3b5998;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.24);
+}
+.btn-social.facebook:hover{
+	background-color: #2d4373;
+	color: #ffffff;
+}
+.btn-social.google{
+	color: #ffffff;
+	background-color: #df4a32;
+}
+.btn-social.google:hover{
+	background-color: #b83b28;
+	color: #ffffff;
+}
+.btn-social.google i{
+	font-size: 18px;
+	vertical-align: sub;
+}
+.btn-social.linkedin{
+	color: #ffffff;
+	background-color: #0077b5;
+}
+.btn-social.linkedin:hover{
+	background-color: #005d8f;
+	color: #ffffff;
+}
+.datepicker[readonly]{
+    background-color: #ffffff !important;
+	cursor: default !important;
+}
+.svg-icon-lock-recover:before {
+   content: url(http://mybdjobs.bdjobs.com/mybdjobs/images/svg-icon-lock-recover.svg);
+}

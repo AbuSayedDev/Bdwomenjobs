@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Regular.eot");
+    src: url("Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Montserrat-Regular.woff2") format("woff2"),
+      url("Montserrat-Regular.woff") format("woff"),
+      url("Montserrat-Regular.ttf") format("truetype"),
+      url("Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Bold.eot");
+    src: url("Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+      url("Montserrat-Bold.woff2") format("woff2"),
+      url("Montserrat-Bold.woff") format("woff"),
+      url("Montserrat-Bold.ttf") format("truetype"),
+      url("Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Regular.eot");
+    src: url("OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+      url("OpenSans-Regular.woff2") format("woff2"),
+      url("OpenSans-Regular.woff") format("woff"),
+      url("OpenSans-Regular.ttf") format("truetype"),
+      url("OpenSans-Regular.svg#OpenSans-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Bold.eot");
+    src: url("OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+      url("OpenSans-Bold.woff2") format("woff2"),
+      url("OpenSans-Bold.woff") format("woff"),
+      url("OpenSans-Bold.ttf") format("truetype"),
+      url("OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Bengali UI";
+    src: url("NotoSansBengaliUI-Regular.eot");
+    src: url("NotoSansBengaliUI-Regular.eot?#iefix") format("embedded-opentype"),
+      url("NotoSansBengaliUI-Regular.woff2") format("woff2"),
+      url("NotoSansBengaliUI-Regular.woff") format("woff"),
+      url("NotoSansBengaliUI-Regular.ttf") format("truetype"),
+      url("NotoSansBengaliUI-Regular.svg#NotoSansBengaliUI-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Bengali UI";
+    src: url("NotoSansBengaliUI-Medium.eot");
+    src: url("NotoSansBengaliUI-Medium.eot?#iefix") format("embedded-opentype"),
+      url("NotoSansBengaliUI-Medium.woff2") format("woff2"),
+      url("NotoSansBengaliUI-Medium.woff") format("woff"),
+      url("NotoSansBengaliUI-Medium.ttf") format("truetype"),
+      url("NotoSansBengaliUI-Medium.svg#NotoSansBengaliUI-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Bengali UI";
+    src: url("NotoSansBengaliUI-SemiBold.eot");
+    src: url("NotoSansBengaliUI-SemiBold.eot?#iefix") format("embedded-opentype"),
+      url("NotoSansBengaliUI-SemiBold.woff2") format("woff2"),
+      url("NotoSansBengaliUI-SemiBold.woff") format("woff"),
+      url("NotoSansBengaliUI-SemiBold.ttf") format("truetype"),
+      url("NotoSansBengaliUI-SemiBold.svg#NotoSansBengaliUI-SemiBold")
+        format("svg");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Bengali UI";
+    src: url("NotoSansBengaliUI-Bold.eot");
+    src: url("NotoSansBengaliUI-Bold.eot?#iefix") format("embedded-opentype"),
+      url("NotoSansBengaliUI-Bold.woff2") format("woff2"),
+      url("NotoSansBengaliUI-Bold.woff") format("woff"),
+      url("NotoSansBengaliUI-Bold.ttf") format("truetype"),
+      url("NotoSansBengaliUI-Bold.svg#NotoSansBengaliUI-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "open sans", Noto Sans Bengali UI;
+  }
+  

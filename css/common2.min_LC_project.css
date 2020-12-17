@@ -1,0 +1,1460 @@
+.in-partners,
+.in-partners i {
+    cursor: pointer
+}
+
+.fatFooter ul li,
+.topBar ul li {
+    list-style: none
+}
+
+.btn,
+.btn:hover,
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    /* outline: 0 */
+}
+
+.topBar ul li a i.icon-facebook:hover,
+.topBar ul.brands li a {
+    text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s
+}
+
+.topBar {
+    background-color: #37474f;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden
+}
+
+.topBar ul li {
+    display: inline-block
+}
+
+.topBar ul.brands li a {
+    padding: 10px;
+    font-size: 11px;
+    color: #bdbdbd;
+    margin: 0 5px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    transition-duration: .2s;
+    /* outline: 0 */
+}
+
+.lang-btn .btn+.btn,
+.topBar ul li a:first-child {
+    margin-left: 0
+}
+
+.topBar ul.icons li {
+    padding: 3px 0 0
+}
+
+.topBar ul.icons li a {
+    color: #bdbdbd;
+    text-decoration: none
+}
+
+.topBar ul.icons li a i {
+    padding: 13px 10px 11px;
+    line-height: 14px
+}
+
+.topBar ul li a i.icon-facebook:hover {
+    background-color: #3b5999;
+    color: #fff;
+    transition-duration: .2s;
+    /* outline: 0 */
+}
+
+.topBar ul li a i.icon-google-plus:hover,
+.topBar ul li a i.icon-youtube:hover,
+.topBar ul li a i.icon-youtube-brands:hover {
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    text-decoration: none;
+    color: #fff;
+    /* outline: 0 */
+}
+
+.topBar ul li a i.icon-google-plus:hover {
+    background-color: #DC4E41;
+    transition-duration: .2s
+}
+
+.topBar ul li a i.icon-youtube:hover {
+    background-color: #e52d27;
+    transition-duration: .2s
+}
+
+.topBar ul li a i.icon-youtube-brands:hover {
+    background-color: #e52d27;
+    transition-duration: .2s
+}
+
+.topBar ul li a i.icon-phone:hover {
+    background-color: #09b83e;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    /* outline: 0 */
+}
+
+.topBar ul li a i.icon-envelope:hover {
+    background-color: #131418;
+    color: #fff
+}
+
+.topBar ul li a.jobs.active {
+    background-color: #2F64A3;
+    color: #fff;
+    font-weight: 700
+}
+
+.topBar ul li a.mybdjobs:hover {
+    background-color: #68aa47;
+    color: #fff
+}
+
+.topBar ul li a.training:hover {
+    background-color: #ac016d;
+    color: #fff
+}
+
+.topBar ul li a.corporate:hover {
+    background-color: #0b5f8a;
+    color: #fff
+}
+
+
+/* added on 03dec2019-0233pm tariq sadat */
+
+.topBar ul li a.tender:hover {
+    background-color: #f57f17;
+    color: #fff
+}
+
+.topBar-right {
+    padding: 7px 0 0
+}
+
+.lang-btn .btn {
+    font-size: 12px;
+    border-radius: 0;
+    padding: 0 5px;
+    text-align: center;
+    box-shadow: none;
+    background-color: #37474F;
+    color: #fff
+}
+
+.lang-btn .btn:hover {
+    background-color: #263238
+}
+
+.lang-btn .btn.active {
+    background-color: #fff;
+    color: #263238
+}
+
+.lang-btn .bn {
+    padding: 3px 6px 2px;
+    background-color: #37474F
+}
+
+.lang-btn.btn-group {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-left: 1px
+}
+
+.icons {
+    margin-right: 20px
+}
+
+.topBar ul.icons a i {
+    font-size: 14px;
+    line-height: 10px
+}
+
+#toTop,
+#toTop:focus {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    font-family: ui-icon!important;
+    background-color: rgba(55, 71, 79, .6);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    height: 36px;
+    width: 36px;
+    padding: 6px 0 0;
+    font-size: 18px
+}
+
+.dots,
+.login-form {
+    position: absolute
+}
+
+.login-form .btn-create,
+.login-form .btn-login,
+.login-form .tab .btn {
+    font-family: Montserrat, sans-serif
+}
+
+.login-corporate,
+.login-jobseeker {
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    padding: 0 25px 15px;
+    background-size: contain;
+    overflow: hidden
+}
+
+#toTop:hover {
+    background-color: #2f64a3;
+    border: 2px solid #fff
+}
+
+.login-form {
+    width: 360px;
+    background-color: #fff;
+    right: 30px;
+    border-top: 2px solid #2f64a3;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .35);
+    border-radius: 0 0 4px 4px;
+    z-index: 2;
+    display: none
+}
+
+.login-jobseeker {
+    background-image: url(../images/job-seeker-bg.jpg);
+    display: block
+}
+
+.login-corporate {
+    display: none;
+    background-image: url(../images/corporate-bg.jpg)
+}
+
+.login-form .tab .btn.active {
+    background-color: #fff;
+    border: 1px solid #2f64a3;
+    border-bottom: 1px solid #fff;
+    border-radius: 4px 4px 0 0;
+    color: #2f64a3;
+    font-weight: 700;
+    margin: 0 0 15px;
+    box-shadow: none
+}
+
+.login-form .tab .btn-group {
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 25px 25px 0
+}
+
+.login-form .tab .btn {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #2F64A3;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0 0;
+    color: #bdbdbd;
+    margin: 0 0 15px;
+    box-shadow: none;
+    width: 50%;
+    padding: 8px 0;
+    /* outline: 0 */
+}
+
+.login-form .checkbox {
+    margin: 20px 0 8px
+}
+
+.login-form .tab .btn:hover {
+    color: #2F64A3
+}
+
+.login-form .tab .btn-group .btn:first-child {
+    border-radius: 4px 4px 0 0
+}
+
+.login-form label {
+    font-weight: 400
+}
+
+.login-form input.form-control {
+    padding-left: 25px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    box-shadow: none;
+    border-radius: 0
+}
+
+.login-form input.u-name {
+    margin: 0 0 15px
+}
+
+.login-form input:focus {
+    /* outline: 0; */
+    box-shadow: none;
+    border-bottom: 1px solid #2F64A3
+}
+
+.login-form .btn-login {
+    padding: 8px 25px;
+    margin: 10px 0 5px;
+    width: 100%;
+    border: 1px solid #43A047
+}
+
+.login-form .inner-addon i {
+    margin-left: 0;
+    color: #a6a6a6
+}
+
+.for-pass {
+    color: #212121;
+    text-align: center;
+    display: block;
+    margin: 8px 0 12px;
+    font-size: 15px
+}
+
+.login-form .btn-create {
+    float: right;
+    background-color: #fff;
+    color: #43A047;
+    border: 1px solid #43A047;
+    margin: 6px 0 0
+}
+
+.login-form .btn-create:hover {
+    background-color: #43A047;
+    border: 1px solid #43A047;
+    color: #fff
+}
+
+.login-form .new-account p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #424242;
+    width: 160px;
+    padding: 12px 0 0;
+    float: left
+}
+
+.fatFooter {
+    padding: 40px 0;
+    color: #fff;
+    background-color: #263238
+}
+
+.fatFooter ul {
+    margin: 0;
+    padding: 0
+}
+
+.fatFooter h2 {
+    font-size: 18px;
+    margin: 0 0 15px
+}
+
+.fatFooter p {
+    color: #92989b;
+    font-family: SolaimanLipi
+}
+
+.fatFooter ul li a {
+    font-size: 14px;
+    color: #fff;
+    /* padding-bottom: 6px; 
+    display: block*/
+    display: inline-block;
+    line-height: 30px;
+}
+
+.fatFooter ul li ul li a {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px
+}
+
+.fatFooter ul li ul li strong {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400
+}
+
+.fatFooter ul li a:hover {
+    color: #fff
+}
+
+.footer-logo {
+    margin: 0 0 15px;
+    width: 140px
+}
+
+.btn-f-more {
+    padding: 5px 10px;
+    background-color: #43A047;
+    color: #fff;
+    font-size: 12px
+}
+
+.in-partners i {
+    padding-top: 5px
+}
+
+.all-partners {
+    display: none
+}
+
+.fatFooter ul.all-partners li:before {
+    content: '\e946';
+    margin-left: 10px;
+    font-size: 12px;
+    color: #92989b;
+    font-family: ui-icon;
+}
+
+.infoMobile {
+    background-color: #37474f;
+    padding: 5px
+}
+
+.infoMobile a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 14px
+}
+
+.welcomeMessage {
+    background: -webkit-linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, .9));
+    background: -o-linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, .9));
+    background: -moz-linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, .9));
+    background: linear-gradient(bottom right, #0074B3, rgba(199, 10, 153, .9));
+    color: #fff;
+    padding: 10px 0;
+    background-color: #c70a99
+}
+
+.welcomeMessage h6 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    float: left;
+    line-height: 18px
+}
+
+.welcomeMessage .btn-feedback {
+    background-color: #fff;
+    color: #b32d7d;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    float: left;
+    margin-right: 20px
+}
+
+.welcomeMessage .btn-feedback:hover {
+    background-color: #165273;
+    color: #fff;
+    border: 2px solid #fff
+}
+
+.welcomeMessage .btn.close {
+    float: right;
+    background-color: transparent;
+    text-shadow: none;
+    color: #fff;
+    border: none;
+    opacity: .6;
+    padding: 0
+}
+
+.welcomeMessage .btn.close:hover {
+    color: #fff;
+    opacity: 1
+}
+
+.dots {
+    background: #fffde7;
+    padding-left: 1px;
+    right: 0;
+    bottom: 0
+}
+
+.welcomeMessage a.feedback {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+.createAccount .modal-content {
+    border-radius: 2px;
+    padding: 0 0 40px;
+    border: none;
+    background-image: url(../errormessages/404.htm);
+    background-repeat: no-repeat;
+    background-position: 100% 100%
+}
+
+.createAccount .modal-header {
+    border: none
+}
+
+.createAccount .modal-header h4 {
+    font-size: 24px;
+    color: #212121;
+    margin: 0 0 10px;
+    padding: 10px 15px 0
+}
+
+.createAccount .modal-header p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #616161
+}
+
+.createAccount .modal-body {
+    padding: 0 50px
+}
+
+.createAccount .modal-dialog {
+    margin-top: 180px
+}
+
+.for-employers,
+.job-seekers {
+    background-color: #68aa47;
+    color: #fff;
+    border-radius: 2px 0 0 2px;
+    min-height: 280px;
+    padding: 40px 20px
+}
+
+.for-employers {
+    background-color: #0b5f8a;
+    border-radius: 0 2px 2px 0
+}
+
+.for-employers h5,
+.job-seekers h5 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0 10px
+}
+
+.for-employers p,
+.job-seekers p {
+    font-size: 14px;
+    color: #fff;
+    opacity: .8
+}
+
+.for-employers .btn,
+.job-seekers .btn {
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    color: #68aa47;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 20px;
+    margin: 10px 0 0
+}
+
+.timer h4,
+.timer h6,
+.timer p {
+    font-family: SolaimanLipi, sans-serif
+}
+
+.job-seekers .btn:hover {
+    background-color: #68aa47;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.for-employers .btn:hover {
+    background-color: #0b5f8a;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.for-employers .btn {
+    color: #0b5f8a
+}
+
+.createAccount .modal-body .col-md-6 {
+    padding: 0
+}
+
+.odometer.odometer-auto-theme,
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-default,
+.odometer.odometer-theme-default .odometer-digit {
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    visibility: hidden
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+.odometer.odometer-theme-default .odometer-digit .odometer-ribbon {
+    display: block
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
+    display: block;
+    -webkit-backface-visibility: hidden
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.odometer.odometer-theme-default .odometer-digit .odometer-value {
+    display: block;
+    -webkit-transform: translateZ(0)
+}
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+.odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value {
+    position: absolute
+}
+
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner {
+    -webkit-transition: -webkit-transform 2s;
+    -moz-transition: -moz-transform 2s;
+    -ms-transition: -ms-transform 2s;
+    -o-transition: -o-transform 2s;
+    transition: transform 2s
+}
+
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+    -webkit-transition: -webkit-transform 2s;
+    -moz-transition: -moz-transform 2s;
+    -ms-transition: -ms-transform 2s;
+    -o-transition: -o-transform 2s;
+    transition: transform 2s;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0)
+}
+
+@font-face {
+    font-family: 'ui-icon';
+    src:  url('../fonts/ui-iconf9ff.eot?lq1306');
+    src:  url('../fonts/ui-iconf9ff.eot?lq1306#iefix') format('embedded-opentype'),
+      url('../fonts/ui-iconf9ff.ttf?lq1306') format('truetype'),
+      url('../fonts/ui-iconf9ff.woff?lq1306') format('woff'),
+      url('../fonts/ui-iconf9ff.svg?lq1306#ui-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ui-icon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-live-jobs:before {
+    content: "\e630";
+  }
+  .icon-question:before {
+    content: "\e900";
+  }
+  .icon-angle-right-n:before {
+    content: "\e901";
+  }
+  .icon-angle-right:before {
+    content: "\e902";
+  }
+  .icon-twitter:before {
+    content: "\e903";
+  }
+  .icon-flag:before {
+    content: "\e904";
+  }
+  .icon-files:before {
+    content: "\e905";
+  }
+  .icon-printer:before {
+    content: "\e906";
+  }
+  .icon-linkedin:before {
+    content: "\e907";
+  }
+  .icon-angle-down:before {
+    content: "\e908";
+  }
+  .icon-angle-up:before {
+    content: "\e909";
+  }
+  .icon-bd-map:before {
+    content: "\e90a";
+  }
+  .icon-bell:before {
+    content: "\e90b";
+  }
+  .icon-briefcase:before {
+    content: "\e90c";
+  }
+  .icon-cretificate:before {
+    content: "\e90d";
+  }
+  .icon-minus:before {
+    content: "\e90e";
+  }
+  .icon-envelope:before {
+    content: "\e90f";
+  }
+  .icon-google-plus:before {
+    content: "\e910";
+  }
+  .icon-hot-jobs:before {
+    content: "\e911";
+  }
+  .icon-list:before {
+    content: "\e912";
+  }
+  .icon-phone:before {
+    content: "\e913";
+  }
+  .icon-right-angle-double:before {
+    content: "\e914";
+  }
+  .icon-plus:before {
+    content: "\e915";
+  }
+  .icon-mouse-click:before {
+    content: "\e916";
+  }
+  .icon-buildings:before {
+    content: "\e917";
+  }
+  .icon-live:before {
+    content: "\e918";
+  }
+  .icon-sort-down:before {
+    content: "\e919";
+  }
+  .icon-sort-up:before {
+    content: "\e91a";
+  }
+  .icon-angle-left-o:before {
+    content: "\e91b";
+  }
+  .icon-angle-right-o:before {
+    content: "\e91c";
+  }
+  .icon-accounts:before {
+    content: "\e91d";
+  }
+  .icon-admin:before {
+    content: "\e91e";
+  }
+  .icon-banking:before {
+    content: "\e91f";
+  }
+  .icon-business:before {
+    content: "\e920";
+  }
+  .icon-career:before {
+    content: "\e921";
+  }
+  .icon-commercial:before {
+    content: "\e922";
+  }
+  .icon-hr:before {
+    content: "\e923";
+  }
+  .icon-it:before {
+    content: "\e924";
+  }
+  .icon-law:before {
+    content: "\e925";
+  }
+  .icon-marketing:before {
+    content: "\e926";
+  }
+  .icon-ngo:before {
+    content: "\e927";
+  }
+  .icon-others:before {
+    content: "\e928";
+  }
+  .icon-pm:before {
+    content: "\e929";
+  }
+  .icon-quality:before {
+    content: "\e92a";
+  }
+  .icon-rmg:before {
+    content: "\e92b";
+  }
+  .icon-puzzle:before {
+    content: "\e92c";
+  }
+  .icon-training:before {
+    content: "\e92d";
+  }
+  .icon-sign-out:before {
+    content: "\e92e";
+  }
+  .icon-applied:before {
+    content: "\e92f";
+  }
+  .icon-star:before {
+    content: "\e930";
+  }
+  .icon-envelope2:before {
+    content: "\e931";
+  }
+  .icon-view-resume:before {
+    content: "\e932";
+  }
+  .icon-edit:before {
+    content: "\e933";
+  }
+  .icon-switching:before {
+    content: "\e934";
+  }
+  .icon-send-email:before {
+    content: "\e935";
+  }
+  .icon-building-plus:before {
+    content: "\e936";
+  }
+  .icon-user:before {
+    content: "\e937";
+  }
+  .icon-lock:before {
+    content: "\e938";
+  }
+  .icon-sort-right:before {
+    content: "\e939";
+  }
+  .icon-employer:before {
+    content: "\e93a";
+  }
+  .icon-chat:before {
+    content: "\e93b";
+  }
+  .icon-times-o:before {
+    content: "\e93c";
+  }
+  .icon-square:before {
+    content: "\e93d";
+  }
+  .icon-search:before {
+    content: "\e93e";
+  }
+  .icon-tag:before {
+    content: "\e93f";
+  }
+  .icon-technical:before {
+    content: "\e940";
+  }
+  .icon-workshop:before {
+    content: "\e941";
+  }
+  .icon-youtube:before {
+    content: "\e942";
+  }
+  .icon-facebook:before {
+    content: "\e943";
+  }
+  .icon-laptop-user:before {
+    content: "\e944";
+  }
+  .icon-angle-right-long:before {
+    content: "\e945";
+  }
+  .icon-list-angle-right:before {
+    content: "\e946";
+  }
+  .icon-cogs:before {
+    content: "\e947";
+  }
+  .icon-customer-care:before {
+    content: "\e948";
+  }
+  .icon-calculator:before {
+    content: "\e949";
+  }
+  .icon-taka:before {
+    content: "\e94a";
+  }
+  .icon-content:before {
+    content: "\e94b";
+  }
+  .icon-laptop-cog:before {
+    content: "\e94c";
+  }
+  .icon-quote:before {
+    content: "\e94d";
+  }
+  .icon-play-video:before {
+    content: "\e94e";
+  }
+  .icon-angle-left-l:before {
+    content: "\e94f";
+  }
+  .icon-angle-right-l:before {
+    content: "\e950";
+  }
+  .icon-clock:before {
+    content: "\e951";
+  }
+  .icon-wiki_icon:before {
+    content: "\e952";
+  }
+  .icon-Invitation:before {
+    content: "\e953";
+  }
+  .icon-youtube-brands:before {
+    content: "\e954";
+  }
+  .icon-thumb-up:before {
+    content: "\e955";
+  }
+  .icon-thumb-down:before {
+    content: "\e956";
+  }
+  .icon-clock-v1:before {
+    content: "\e957";
+  }
+  .icon-calendar-v1:before {
+    content: "\e958";
+  }
+  .icon-filter:before {
+    content: "\e959";
+  }
+  .icon-arrow-left:before {
+    content: "\e95a";
+  }
+  .icon-ongoing:before {
+    content: "\e95b";
+  }
+  .icon-comments:before {
+    content: "\e966";
+  }
+  .icon-calendar:before {
+    content: "\e967";
+  }
+  .icon-acsbi-person:before {
+    content: "\e95c";
+  }
+  .icon-monochrome:before {
+    content: "\e95d";
+  }
+  .icon-screen-reader:before {
+    content: "\e95e";
+  }
+  .icon-notice-board:before {
+    content: "\e95f";
+  }
+  .icon-evening:before {
+    content: "\e960";
+  }
+  .icon-health:before {
+    content: "\e961";
+  }
+  .icon-live-video:before {
+    content: "\e962";
+  }
+  .icon-video-camera:before {
+    content: "\e963";
+  }
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v7/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSq-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShWV49_lSm1NYrwo-zkhivY.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSqaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSv8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+.social-button {
+    margin: 0 0 10px
+}
+
+.social-signin h5 {
+    margin: 0 0 10px;
+    position: relative;
+    top: 7px
+}
+
+.social-button .btn {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 8px!important;
+    margin: 10px 6px 0 0!important
+}
+
+.social-button .btn i {
+    margin-right: 5px
+}
+
+.social-button p {
+    font-style: italic;
+    color: #616161;
+    margin: 10px 0
+}
+
+.btn-google,
+.btn-google:focus {
+    background-color: #df4a32!important;
+    color: #fff!important;
+    border: #df4a32!important
+}
+
+.btn-google:hover {
+    background-color: #b83b28!important;
+    color: #fff!important
+}
+
+.btn-facebook,
+.btn-facebook:focus {
+    background-color: #3b5998!important;
+    color: #fff!important;
+    border: #3b5998!important
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373!important;
+    color: #fff!important
+}
+
+.btn-linkedin,
+.btn-linkedin:focus {
+    background-color: #0077b5!important;
+    color: #fff!important;
+    border: #0077b5!important
+}
+
+.btn-linkedin:hover {
+    background-color: #005d8f!important;
+    color: #fff!important
+}
+
+.social-modal .modal-header {
+    background-color: #0e73a9;
+    border-radius: 6px 6px 0 0;
+    padding: 12px 0
+}
+
+.social-modal .modal-header h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 20px
+}
+
+.social-modal .close {
+    color: #fff;
+    opacity: 1;
+    margin-right: 10px
+}
+
+.social-modal img.logo-in-modal {
+    height: 32px;
+    display: block;
+    margin: 0 auto 15px
+}
+
+.social-modal .modal-body span.email {
+    color: #0e73a9;
+    font-weight: 600
+}
+
+.social-modal .modal-body {
+    padding: 15px 0;
+    height: 420px;
+    overflow-y: scroll
+}
+
+.social-modal .border {
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 10px
+}
+
+.social-modal .account-list {
+    margin-top: 15px;
+    border-bottom: 1px solid #e0e0e0
+}
+
+.social-modal .user-account {
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px 15px
+}
+
+.social-modal .user-account:hover {
+    background-color: #f5f5f5
+}
+
+.social-modal .account-list a {
+    display: block;
+    text-decoration: none
+}
+
+.social-modal .user-account img {
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+    height: 64px;
+    width: 64px
+}
+
+.social-modal .account-info {
+    display: inline-block;
+    padding: 10px 0 0
+}
+
+.social-modal .account-list .btn-default {
+    display: inline-block;
+    float: right;
+    margin: 15px 0 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #69aa44;
+    font-weight: 600
+}
+
+.social-modal .account-list .btn-default:hover {
+    background-color: #69aa44;
+    border: 1px solid #69aa44;
+    color: #fff
+}
+
+.social-modal .account-info ul {
+    margin: 0;
+    padding: 0
+}
+
+.social-modal .account-info ul li {
+    display: block;
+    list-style: none
+}
+
+.social-modal .account-info ul li .grey {
+    color: #757575;
+    font-weight: 400
+}
+
+.social-modal .account-info ul li span {
+    font-weight: 600
+}
+
+.social-modal-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+.layer-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.social-modal-container .modal {
+    margin-top: 50px
+}
+
+.social-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: block;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    /* outline: 0 */
+}
+
+@media only screen and (min-width:991px) {
+    .social-modal .modal-dialog {
+        width: 500px
+    }
+    .spinner-container {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: none
+    }
+    .spinner-container .layer-mask {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .6)
+    }
+}
+
+.fatFooter ul.oth-partners li:before {
+    content: '\e946';
+    margin-left: 10px;
+    font-size: 12px;
+    color: #92989b;
+    font-family: ui-icon;
+}
+
+.oth-partners {
+    display: none;
+}
+
+.google-play-badge {
+    height: 36px;
+}
+
+.app-heading {
+    margin: 10px 0px 10px 0px;
+    font-size: 15px ;
+    font-weight: 600 !important;
+}
+
+.footer-icon {
+    height: 18px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-transform: none;
+    font-size: 13px;
+}
+
+.f-contacts {
+    text-align: center;
+    color: #92989b;
+    font-size: 18px;
+}
+
+.f-contacts span {
+    position: relative;
+    padding: 0 0px 0 35px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #FF8000;
+}
+
+.f-contacts span:before {
+    content: "";
+    /*background: url("../images/fus.png") no-repeat;*/
+    background: url("../../bdjobs.com/icons/fus.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+span.user-name {
+    text-transform: none !important;
+    font-size: 13px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.BDJS {
+  position: absolute;
+  clip: rect(1px,1px,1px,1px);
+}

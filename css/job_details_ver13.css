@@ -1,0 +1,1218 @@
+.job-preview {
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: block;
+    margin-right: 170px;
+    margin-bottom: 10px;
+}
+
+.job-preview .m-view {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.job-preview .left {
+    padding: 10px 20px 0px 0px;
+}
+
+.job-preview .com-logo {
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.job-preview .view-all-jobs {
+    float: right;
+    font-size: 12px;
+}
+
+.job-preview .view-all-jobs a{
+    color: #317ab9;
+    text-decoration: underline;
+}
+
+.job-preview .com-logo img {
+    display: block;
+    float: right;
+}
+
+.job-preview h2 {
+    color: #2b882f;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+.job-preview h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.job-preview h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px 6px 0px;
+    color: #5C5C5C;
+}
+
+.job-preview h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px 6px 0px;
+    color: #5C5C5C;
+}
+
+.job-preview p {
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+    line-height: 24px;
+    color: #5c5c5c;
+}
+
+.job-preview ul {
+    margin: 0px 0px 0px 40px;
+    padding: 0;
+}
+
+.job-preview ul li {
+    color: #5c5c5c;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.job-preview .guide,
+.job-preview .or {
+    margin: 15px 0px 20px 0px;
+    color: #5c5c5c;
+}
+
+.job-preview .guide h5 {
+    margin-bottom: 20px;
+}
+
+.job-preview .guide span {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.job-preview span.date {
+    margin-top: 10px;
+    display: block;
+}
+
+.job-preview .guide span strong {
+    color: #5c5c5c;
+}
+
+.job-preview .guide h4 {
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.job-preview .disclaimer {
+    margin-top: 20px;
+    float: left;
+    font-size: 12px;
+    color: #ff3b30;
+    text-align: center;
+}
+
+.job-preview .disclaimer.bn {
+    font-family: 'solaimanlipi', sans-serif;
+    font-size: 14px;
+}
+
+.job-preview .apply-instruction {
+    color: #5c5c5c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.job-preview .guide h4 .red {
+    color: #e72318;
+}
+
+.job-preview .company-info {
+    margin: 40px 0px 20px 0px;
+    border-top: 1px solid #e0e0e0;
+    float: left;
+    width: 100%;
+}
+
+.job-preview .company-info .information {
+    padding: 0px;
+    margin: 0px 150px 0px 0px;
+    float: left;
+}
+
+.job-preview .company-info .follow-button {
+    width: 140px;
+    float: right;
+    margin-left: -140px;
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.job-preview .company-info .follow-button .btn {
+    position: relative;
+}
+
+.job-preview .company-info .follow-button .new-btn {
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0px;
+}
+
+.job-preview .company-info .follow-button .btn {
+    background: #757575;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100px;
+    /* height: 40px; */
+}
+
+.job-preview .company-info .follow-button .btn img {
+    margin-top: 0px;
+}
+
+.job-preview .company-info span {
+    display: block;
+    color: #5c5c5c;
+}
+
+
+/*Right Sidebar*/
+
+.job-preview .right {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+.job-preview .right .panel-heading {
+    background-color: #37474f;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.job-preview .right .panel-body {
+    background-color: #f5f5f5;
+}
+
+.job-preview .right .panel-default {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.job-preview .right .panel {
+    border: none;
+}
+
+.job-preview .right .panel-body {
+    border: 1px solid #DDDDDD;
+}
+
+.job-preview .right h4 {
+    font-size: 13px;
+    color: #5c5c5c;
+    font-weight: normal;
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+
+.job-preview .right .panel-body span {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.job-preview .right span img {
+    height: 22px;
+    width: 22px;
+    margin: -5px 5px 0px 0px;
+}
+
+.job-preview .apply .btn {
+    background-color: #2b882f;
+    color: #fff;
+    border: 1px solid #2b882f;
+    padding: 8px 30px;
+    box-shadow: none;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.job-preview .instruction-details {
+    padding: 0px;
+    margin: 0px;
+}
+.job-preview .instruction-details a{
+    color: #2F64A3;
+    text-decoration: none;
+}
+
+.job-preview .apply .btn:hover,
+.apply .btn:focus {
+    background-color: #29612B;
+    color: #fff;
+}
+
+.job-preview p.category {
+    padding: 15px 0px 10px 0px;
+}
+
+body>.container.job-details {
+    overflow: visible !important;
+    margin-bottom: 10px;
+    position: relative;
+    min-height: 2100px;
+}
+
+.job-details .right.banner {
+    background: #eeeeee;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    margin-left: 0px;
+}
+
+.job-preview .right .panel-body h4 ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.job-preview .right .panel-body h4 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.job-preview .right .panel-body h4 ul li a {
+    color: #5c5c5c;
+}
+
+.job-preview .right .panel-body h4 ul li a:hover {
+    color: #0e73a9;
+    text-decoration: none;
+}
+
+.job-preview .job-link .panel-heading {
+    background: #68AA47;
+}
+
+.job-preview .job-link a {
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.job-preview .bn.job-link a {
+    font-family: 'solaimanlipi', sans-serif;
+    font-size: 16px;
+}
+
+.job-preview .training .carousel-inner {
+    min-height: 215px;
+    overflow: hidden;
+}
+
+.job-preview .training .panel-heading {
+    background: #9e1a75;
+}
+
+.job-preview .action-section .panel-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.job-preview .action-section .panel-body a {
+    color: #5c5c5c;
+}
+
+.job-preview .action-section .panel-body a:hover,
+.job-preview .action-section .panel-body a:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.job-preview .training-details-link {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#div-bdj-vdoadai{
+    width: 242px;
+    height: 400px;
+    float: left;
+    padding-left: 7px;
+}
+#div-bdj-vdoadai >div{
+    margin-left: 0px !important;
+}
+#div-bdj-vdoadai .vdo_content .vdo-js {
+    width: 235px;
+}
+
+.google-banner-bottom {
+    width: 728px;
+    float: left;
+}
+.job-preview .action-section i,
+.job-link i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.job-link i:after {
+    content: '';
+    display: inline-block;
+}
+
+.job-link i {
+    margin-top: 2px;
+    display: block;
+    float: left;
+}
+
+.job-preview .job-link .panel-default {
+    border: none !important;
+}
+
+.image img {
+    width: 100%;
+}
+
+
+/*For Bangla Start*/
+
+.bn-en ul li,
+.bn-en p {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+}
+
+body.bn h5,
+.img-source,
+.img-bottom-link {
+    font-family: 'solaimanlipi', sans-serif !important;
+    font-size: 16px !important;
+}
+
+body.bn,
+.view-all-jobs.bn,
+.bn>p,
+.job_req li.bn,
+.edu_req span.bn,
+.company-name.bn,
+ul.bn,
+ul.bn>li,
+.guide.bn>.instruction-details {
+    font-family: 'solaimanlipi', sans-serif !important;
+    font-size: 15px !important;
+}
+
+.job-title.bn {
+    font-family: 'solaimanlipi', sans-serif !important;
+    font-size: 18px !important;
+}
+
+body.bn .job-preview h2,
+.company-name.bn {
+    font-size: 20px !important;
+}
+
+.job-title.bn.image {
+    font-size: 17px !important;
+}
+
+.job-summary.bn .panel-heading {
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+.job-summary.bn h4 {
+    font-size: 15px !important;
+}
+
+.action-section.bn span a {
+    font-size: 16px !important;
+}
+
+.en {
+    font-family: Arial, sans-serif !important;
+    font-size: 18px !important;
+}
+
+.category.bn {
+    font-size: 16px !important;
+}
+
+ul.bn>li.age,
+ul.bn>li.gender {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px !important;
+}
+
+
+/*For Bangla End*/
+
+span#btnText {
+    display: inline-block !important;
+    color: #FFFFFF !important;
+}
+
+
+/*responsive start*/
+
+@media screen and (max-width: 991px) {
+    .job-preview .right.job-summary {
+        display: none;
+    }
+    .job-preview>.m-class>div {
+        width: 100%;
+    }
+    /*.job-preview .m-view {
+        padding: 0px 15px;
+    }*/
+    .job-preview .training h4 span.course-left,
+    .job-preview .training h4 span.course-right {
+        width: 100% !important;
+        float: left !important;
+        margin-right: 5px !important;
+        /*margin-bottom: 5px !important;*/
+    }
+    .job-preview .training h4 span.course-left.duration {
+        margin-bottom: -7px !important;
+        display: block !important;
+        float: left !important;
+    }
+    .job-preview .training h4 span.course-left.schedule {
+        margin-bottom: 4px !important;
+        display: block !important;
+        float: left !important;
+    }
+    .job-preview .training h4 span.course-right.schedule {
+        margin-bottom: 8px !important;
+        display: block !important;
+        float: left !important;
+    }
+    .job-preview .training h4.hours {
+        margin-top: 10px !important;
+        display: block !important;
+        float: left !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .job-preview {
+        margin-right: 0px;
+    }
+    .job-preview .right {
+        display: block;
+    }
+    .job-preview .right.job-summary,
+    .job-preview .right.action-section span.print {
+        display: none;
+    }
+    .job-preview .company-info {
+        margin: 40px 0px 20px 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .job-preview .company-info .information,
+    .job-preview .company-info .follow-button {
+        width: 100%;
+        margin: 0px;
+    }
+    .job-preview .company-info .follow-button {
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .job-preview .follow-button .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .job-preview .category-wrapper,
+    .job-preview .job-title,
+    .job-preview .com-logo,
+    .job-preview .view-all-jobs,
+    .job-preview .company-name {
+        width: 100%;
+        text-align: center;
+    }
+    .job-preview .view-all-jobs {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .job-preview .com-logo img {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body>.container.job-details {
+        min-height: 0px;
+    }
+    .job-preview .left {
+        padding-right: 0px;
+        height: auto !important;
+    }
+}
+
+
+/*responsive end*/
+
+
+/*Assessment*/
+
+.assessment .popover {
+    max-width: 350px !important;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.45);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+.assessment .popover-content {
+    padding: 0px;
+}
+
+.icon-question {
+    cursor: pointer;
+}
+
+.assessment {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.assessment .badge {
+    font-size: 12px;
+    color: #212121;
+    background-color: #fff3e0;
+    border: 1px solid #e6d2b3;
+    font-weight: normal;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+.assessment .btn-question {
+    color: #a6a6a6;
+    padding: 2px;
+}
+
+.assessment .btn-question:hover {
+    color: #424242;
+    cursor: pointer;
+}
+
+.assessment .badge .icon-assessment-badge {
+    color: #ef6c00;
+    font-size: 16px;
+    vertical-align: sub;
+}
+
+.assessment .mpover {
+    width: 315px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: none;
+    z-index: 999;
+}
+
+.assessment .mpover:after {
+    display: none;
+}
+
+.assessment .mpover h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    color: #212121;
+}
+
+.assessment .mpover p {
+    font-size: 14px;
+    color: #666666;
+    padding: 0px 0px 10px 0px;
+}
+
+.assessment .mpover a {
+    text-transform: uppercase;
+    display: block;
+}
+
+.assessment .mpover a:hover {
+    text-decoration: none;
+}
+
+.assessment .mpover button.close span {
+    font-size: 22px !important;
+    right: 10px;
+    top: 10px;
+}
+
+.job-preview .alert-success {
+    background-color: #FEFBFE;
+    border: 2px solid #F3E5F5;
+    color: #a553b3;
+}
+
+.job-preview .apply .btn.disabled {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    color: #a6a6a6;
+    opacity: 1;
+}
+
+.vertical .carousel-inner {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+
+.modal.oja .modal-body {
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.modal.oja .modal-content {
+    border-radius: 0px;
+}
+
+.modal.oja .modal-body .ap-title {
+    background-color: #E8E8E8;
+    padding: 15px 15px 15px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    border-bottom: 1px solid #666;
+}
+
+.modal.oja .modal-body .ap-title-bn {
+    background-color: #E8E8E8;
+    padding: 15px 15px 15px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    border-bottom: 1px solid #666;
+}
+
+.modal.oja .modal-body .oap-des {
+    padding: 15px 15px 15px 15px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+}
+
+.modal.oja .modal-body .oap-des-bn {
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+    line-height: 22px;
+    width: 100%;
+}
+
+.modal.oja .modal-body .adbtn {
+    padding: 5px 15px 15px 15px;
+    width: 100%;
+}
+
+.adbtn .btn {
+    background-color: #43A047;
+    color: #fff;
+    border: 1px solid #43A047;
+    padding: 8px 30px;
+    box-shadow: none;
+    font-size: 15px;
+    min-width: 150px;
+}
+
+.adbtn .btn:hover,
+.adbtn .btn:focus {
+    background-color: #008c23;
+    color: #fff;
+}
+
+.adbtn .btn.acpt {
+    font-size: 15px;
+}
+
+.adbtn .btn.acpt-bn {
+    font-size: 15px;
+}
+
+.adbtn .btn.deny {
+    background-color: #ffffff;
+    color: #43A047;
+    border: 1px solid #43A047;
+    padding: 8px 30px;
+    box-shadow: none;
+    font-size: 15px;
+}
+
+.adbtn .btn.deny-bn {
+    background-color: #ffffff;
+    color: #43A047;
+    border: 1px solid #43A047;
+    padding: 8px 30px;
+    box-shadow: none;
+    font-size: 15px;
+}
+
+.adbtn .btn:hover,
+.adbtn .btn:focus {
+    background-color: #008c23;
+    color: #fff;
+}
+
+.modal.oja .modal-body .btr-txt {
+    padding: 0px 15px 15px 15px;
+    font-size: 13px;
+    line-height: 22px;
+    width: 100%;
+    text-align: right;
+}
+
+.modal.oja .modal-body .btr-txt a {
+    text-decoration: none;
+    color: #2a6496;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.modal.oja .modal-body .btr-txt-bn {
+    padding: 0px 15px 15px 15px;
+    font-size: 13px;
+    line-height: 22px;
+    width: 100%;
+    text-align: right;
+}
+
+.modal.oja .modal-body .btr-txt-bn a {
+    text-decoration: none;
+    color: #2a6496;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .adbtn .btn.deny {
+        margin-top: 15px;
+    }
+    .adbtn .btn.deny-bn {
+        margin-top: 15px;
+    }
+}
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
+
+.rba-title-divider-l {
+    width: 125px;
+    height: 2px;
+    background: #cccccc;
+    margin: 15px auto 5px auto;
+}
+
+.rba-title-divider-s {
+    width: 80px;
+    height: 2px;
+    background: #cccccc;
+    margin: 0px auto 20px auto;
+}
+
+.rba .s-sug-txt {
+    margin: 20px 0px 0px 0px;
+    color: #5c5c5c;
+    color: #8a8a8a;
+}
+
+.apto-title-divider-l {
+    width: 125px;
+    height: 2px;
+    background: #cccccc;
+    margin: 5px auto 0px auto;
+}
+
+.apto span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 20px auto 0px auto;
+}
+
+.gra-bordered::before {
+    content: "";
+    display: block;
+    width: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    margin-left: -30%;
+    height: 1px;
+    background: radial-gradient(at center center, rgba(0, 0, 0, 0.2) 0px, rgba(255, 255, 255, 0) 75%);
+}
+
+.gra-bordered,
+.gra-backbordered {
+    position: relative;
+}
+
+.gra-padded {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.job-preview .guide .pho-txt h4 {
+    margin-top: 5px;
+}
+
+.asstr {
+    max-width: 320px;
+    margin: 30px auto 15px auto;
+    text-align: left;
+}
+
+.asstr .panel-group .panel {
+    margin: 0px 0px 1px 0px;
+    border: 1px solid #43a047;
+}
+
+.asstr .panel-group .panel .panel-body {
+    padding: 20px 5px 20px 5px;
+}
+
+.asstr .panel-heading {
+    padding: 6px 10px 8px 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.asstr .panel-heading span {
+    font-weight: normal;
+}
+
+.asstr .panel-heading+.panel-collapse .panel-body {
+    padding: 5px 10px 15px 10px;
+    border: none;
+    border-top: none;
+}
+
+.asstr .panel-title.collapsed {
+    color: #5c5c5c;
+    font-weight: bold;
+    text-transform: none;
+    padding: 12px 10px;
+    font-size: 14px;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.asstr .panel-title,
+.panel-title:hover {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5c5c5c;
+    /* outline: 0; */
+    padding: 2px;
+    text-decoration: none;
+}
+
+.asstr .panel {
+    border: none;
+    margin: 0px 0px 15px 0px !important;
+}
+
+.asstr .panel-heading a,
+.asstr .panel-title a {
+    text-decoration: none;
+}
+
+.asstr .panel-heading i {
+    vertical-align: middle;
+}
+
+.asstr .panel-heading a i {
+    vertical-align: middle;
+    color: #5c5c5c;
+    font-size: 20px;
+}
+
+.asstr .panel-title i {
+    vertical-align: middle;
+}
+
+.asstr .panel-title a i {
+    vertical-align: middle;
+}
+
+.asstr .panel-title a i.indicator {
+    float: right;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.asstr .panel ul {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.asstr .panel ul li {
+    padding-left: 0;
+    margin-left: 0px;
+    list-style-type: none;
+    line-height: 16px;
+    list-style-image: url(/images/Tick.svg);
+}
+
+@media only screen and (min-width:0px) and (max-width:360px) {
+    .asstr .panel-heading {
+        padding: 8px 6px 9px 6px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .asstr .panel-heading.collapsed {
+        font-size: 13px;
+    }
+    .asstr .panel-heading a i {
+        font-size: 16px;
+    }
+    .asstr .panel-title,
+    .panel-title:hover {
+        /* outline: 0; */
+        padding: 0px;
+        text-decoration: none;
+    }
+    .asstr .panel-title a i.indicator {
+        margin-top: 6px;
+        font-size: 14px;
+    }
+}
+
+.left .col-sm-push-3 {
+    left: 75%;
+}
+
+.left .col-sm-pull-9 {
+    right: 25%;
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .left .col-sm-push-3 {
+        left: 0%;
+    }
+    .left .col-sm-pull-9 {
+        right: 0%;
+    }
+}
+
+.jaguid {
+    padding: 12px 20px 12px 20px;
+    background-color: #FFF3CD;
+    border: 1px solid #FFEEBA;
+    color: #856404;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+    display: inline-block;
+    max-width: 474px;
+}
+
+.jacm {
+    color: #856404;
+    line-height: 19px;
+    margin-bottom: 4px;
+}
+
+.jacm .redish-txt {
+    color: #ff3b30;
+}
+
+.jacm .greenish-txt {
+    color: #008c23;
+}
+
+.tdavail {
+    color: #AA5A18;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.cinttip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 5px;
+}
+
+.cinttip .cinttip-content {
+    visibility: hidden;
+    min-width: 220px;
+    background-color: #323232;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 170%;
+    left: 0%;
+    margin-left: -103px;
+}
+
+.cinttip span.cinttip-content {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.cinttip .cinttip-content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #323232 transparent transparent transparent;
+}
+
+.cinttip .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.jdfx {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+    .jdfx {
+        flex-flow: column;
+    }
+    .jdfx :nth-child(1) {
+        order: 1;
+    }
+    .jdfx :nth-child(2) {
+        order: 3;
+    }
+    .jdfx :nth-child(3) {
+        order: 2;
+    }
+}
+
+.job-preview .right.training {
+    margin: 0px 0px 0px 0px;
+}
+
+.job-preview .right.training h4 span {
+    display: inline-block;
+    width: auto;
+    font-size: 13px;
+    padding: 0px;
+    border-bottom: none;
+}
+.job-preview .right.training .panel-body {
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.job-preview .right.training .panel-footer {
+    border: 1px solid #DDDDDD;
+    border-top: none;
+}
+.job-preview .right.training #carouselButtons {
+    display: inline-block;
+}
+.job-preview .right.training #carouselButtons .ppbtn {
+    padding: 2px 5px 2px 5px;
+    font-size: 10px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #9e1a75;
+}
+.job-preview .right.training #carouselButtons .ppbtn span{
+    padding: 0px;
+    font-size: 10px;
+    border-bottom: none;
+}
+.job-preview .right.training .tscontrol{
+    float: right;
+    margin-top: 5px;
+}
+.job-preview .right.training .tscontrol .control-box {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.job-preview .right.training .tscontrol .control-box li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+.job-preview .right.training .tscontrol .control-box li > a{
+    display: inline-block;
+    padding: 3px 5px 3px 5px;
+    background-color: #9e1a75;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.job-preview .right.training .tscontrol .control-box li > a i{
+    margin-right: 0px;
+    font-size: 12px;
+}

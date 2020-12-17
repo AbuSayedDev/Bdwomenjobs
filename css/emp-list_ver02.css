@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* ul.sba {
+    margin: 0px 0px 0px -15px;
+} */
+
+ul.sba li{
+    list-style: none;
+    display: inline;
+}
+ul.sba li .btn{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;    
+    margin: 10px 5px 0px 5px;
+    padding: 0px;
+    background: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;    
+    text-align: center;
+    webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+/* ul.sba li:focus, ul.sba li.inactive:focus, ul.sba li.active:hover {
+    background-color: #44851f;
+    color: #FFF;
+} */
+
+ul.sba li.active .btn:focus, ul.sba li.inactive .btn:focus, ul.sba li.active:hover .btn,
+ul.sba li.inactive:hover .btn:focus {
+    background-color: #44851f;
+    color: #FFF;
+}
+ul.sba li.active .btn,
+ul.sba li.inactive:hover .btn {
+    color: #FFF;
+    /* background-color: #69aa44; */
+    background-color: #44851f;
+}
+
+ul.sba li.inactive .btn{
+    color: #333;
+    background-color: #d9d9d9;
+}
+
+.sorg-wrapper {
+    padding: 0px 15px 0px 15px;
+    margin: 15px 0px 0px 0px;
+}
+
+.sorg-wrapper-left {
+    width: 30%;
+    float: left;
+    /*color:#808080;*/
+    color: #6c6c6c;
+    font-size: 13px;
+}
+
+.sorg-wrapper-middle {
+    width: 65%;
+    float: left;
+}
+
+.sorg-wrapper-right {
+    width: 5%;
+    float: left;
+}
+
+.sorg-wrapper input[type=button] {
+    color: #fff;
+    border: 1px solid #cccccc;
+    /* background-color: #69aa44; */
+    background-color: #44851f;
+    padding: 5px 10px 5px 10px;
+    webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sorg-wrapper input[type=submit] {
+    color: #fff;
+    border: 1px solid #cccccc;
+    /* background-color: #69aa44; */
+    background-color: #44851f;
+    padding: 5px 10px 5px 10px;
+    webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sorg-wrapper-middle .form-control {
+    display: block;
+    height: 25px;
+    padding: 2px 6px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 4px;
+}
+
+.select-style select {
+    background: transparent;
+    border: solid 1px #999;
+}
+
+@media only screen and (min-width:0px) and (max-width: 767px) {
+    /* ul.sba {
+        margin: 0px 0px 0px -35px;
+    } */
+    .sorg-wrapper-left {
+        width: 100%;
+        float: none;
+    }
+    .sorg-wrapper-middle {
+        width: 100%;
+        float: none;
+    }
+    .sorg-wrapper-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .sorg-wrapper-left {
+        width: 100%;
+        float: none;
+    }
+    .sorg-wrapper-middle {
+        width: 100%;
+        float: none;
+    }
+    .sorg-wrapper-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .sorg-wrapper-left {
+        width: 100%;
+        float: none;
+    }
+    .sorg-wrapper-middle {
+        width: 100%;
+        float: none;
+    }
+    .sorg-wrapper-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+.emp-wrap {
+    padding: 0px 0px 4px 0px;
+    margin: 15px 0px 0px 0px;
+    border: 1px solid #e2e2e2;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position: relative;
+    background: #fff;
+}
+
+.org-t {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.org-t>div {
+    display: table-cell;
+    border: 1px solid #fff;
+    padding: 7px 5px 7px 8px;
+    vertical-align: top;
+}
+
+.O-title {
+    font-weight: bold;
+    background-color: #babdc0;
+    /* color: #545454; */
+    color: #4c4c4c;
+}
+
+.Snum {
+    width: 50px;
+    text-align: center;
+}
+
+.Org-name {
+    width: auto;
+}
+
+.Org-name.success {
+    width: 100%;
+    text-align: center;
+}
+
+.Org-name a {
+    color: #065193;
+}
+
+.O-res-O .Org-name a {
+    color: #065193;
+}
+
+.Org-name a:hover {
+    /* color: #69aa44; */
+    color: #44851f;
+}
+
+.Org-name span {
+    display: none;
+}
+
+.Numojob {
+    width: 100px;
+    text-align: center;
+}
+
+.O-res .Snum {
+    webkit-border-radius: 6px 0px 0px 0px;
+    -moz-border-radius: 6px 0px 0px 0px;
+    border-radius: 6px 0px 0px 0px;
+}
+
+.O-res .Numojob {
+    webkit-border-radius: 0px 6px 0px 0px;
+    -moz-border-radius: 0px 6px 0px 0px;
+    border-radius: 0px 6px 0px 0px;
+}
+
+.O-res-O {
+    background-color: #f3f3f3;
+}
+
+.pagination {
+    float: left;
+}
+
+.pagination.right-align {
+    float: right;
+}
+
+body.bn {
+    font-family: 'solaimanlipi', sans-serif
+}
+
+body.bn .top-stat-text,
+body.bn .top-stat-box,
+body.bn .sorg-wrapper-left,
+body.bn .sorg-wrapper-middle,
+body.bn .sorg-wrapper-right {
+    font-size: 16px;
+}
+
+body.bn .cont-pagination-wrapper,
+body.bn .pagination a.prevnext,
+body.bn .pagination li,
+body.bn .O-title,
+body.bn .Numojob,
+body.bn .Snum {
+    font-size: 16px;
+}
+
+body.bn .Org-name {
+    font-size: 15px;
+}
+
+.not-fount {
+    background: #fefefe;
+    -webkit-border-radius: 0px 4px 4px 4px;
+    -moz-border-radius: 0px 4px 4px 4px;
+    border-radius: 0px 4px 4px 4px;
+    -webkit-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+    -moz-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+    box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+    position: relative;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0px 0px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.s-msg {
+    color: #2f64a3;
+    font-size: 18px;
+}
+
+.ash-msg {
+    color: #757575;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .O-res div {
+        display: block;
+        width: auto;
+    }
+    .Org-name span {
+        display: inline-block;
+        font-weight: normal;
+    }
+    .O-res .Snum,
+    .O-res .Numojob {
+        display: none;
+    }
+    .O-res .O-title {
+        background-color: #babdc0;
+        -webkit-border-radius: 6px 6px 0px 0px;
+        -moz-border-radius: 6px 6px 0px 0px;
+        border-radius: 6px 6px 0px 0px;
+    }
+    .cont-pagination-wrapper {
+        text-align: center;
+    }
+    .pagination,
+    .pagination.right-align {
+        float: none;
+        text-align: center;
+    }
+}

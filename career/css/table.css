@@ -1,0 +1,25 @@
+/*bdjobs.com*/
+
+/*table set 1*/
+.t {background: url(../images/tblimg/bg_column.gif) 0 0 repeat-x; width: 100%;background-color:#f1f2f3; }
+.b {background: url(../images/tblimg/border.gif) 0 100% repeat-x}
+.l {background: url(../images/tblimg/border.gif) 0 0 repeat-y; }
+.r {background: url(../images/tblimg/border.gif) 100% 0 repeat-y;}
+.bl {background: url(../images/tblimg/bl.gif) 0 100% no-repeat;}
+.br {background: url(../images/tblimg/br.gif) 100% 100% no-repeat;}
+.tl {background: url(../images/tblimg/tl.gif) 0 0 no-repeat}
+.tr {background: url(../images/tblimg/tr.gif) 100% 0 no-repeat; padding:1px}
+
+/*table set 2*/
+.t2 {background: url(../images/tblimg/border.gif) 0 0 repeat-x; width: 100%;background-color:#f1f2f3; }
+.b2 {background: url(../images/tblimg/border.gif) 0 100% repeat-x}
+.l2 {background: url(../images/tblimg/border.gif) 0 0 repeat-y; }
+.r2 {background: url(../images/tblimg/border.gif) 100% 0 repeat-y;}
+.bl2 {background: url(../images/tblimg/bl.gif) 0 100% no-repeat;}
+.br2 {background: url(../images/tblimg/br.gif) 100% 100% no-repeat;}
+.tl2 {background: url(../images/tblimg/tl2.gif) 0 0 no-repeat}
+.tr2 {background: url(../images/tblimg/tr2.gif) 100% 0 no-repeat; padding:10px}
+
+
+.colbg{background: url(../images/tblimg/bg_column.gif) 0 0 repeat-x; height:37px; width: 100%; }
+.bottomHorzLine {background: url(../images/tblimg/seperator_horz_line.gif) 0 100% repeat-x}

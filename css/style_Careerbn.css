@@ -1,0 +1,668 @@
+/*bdjobs workshop*/
+.tblMainTitle{
+	font-family:Tahoma;
+	font-size:14px;
+	color:#ff0000;
+	font-weight:bold;
+}
+.tblTitle1{
+	font-family: SolaimanLipi;
+	font-size:20px;
+	color:#268209;
+	font-weight:bold;
+}
+.tblTitle2{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#8e9415;
+	font-weight:bold;
+}
+.workshopTitle{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#ff7200;
+	font-weight:bold;
+}
+.workshopDate{
+	font-family:arial;
+	font-size:11px;
+	color:#74a2e8;
+	font-weight:bold;
+}
+.workshopDesc{
+	font-family:SolaimanLipi;
+	font-size:12px;
+	color:#0e0e0e;
+}
+.workshopLink{
+  color:#0d69da;
+}
+.workshopRPName{
+color: #3d81ff;
+}
+/*bullet*/
+#bullet
+{
+	list-style-image:url(../images/bullet_orange.gif);
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:20px;
+	line-height:1.5;
+	
+}
+#bullet li
+{
+	
+	margin-left:0px;
+	padding-left:0px;
+}
+#bullet li a
+{
+	color:#0066FF;
+	text-decoration:none;	
+}
+#bullet li a:hover
+{
+	color:#FF0000;
+}
+
+#bullet2
+{
+	list-style-image:url(../images/bullet_orange.gif);
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:20px;
+	
+}
+#bullet2 li
+{
+	
+	margin-left:0px;
+	padding-left:0px;
+}
+#tableLink{
+	font-family:arial;
+	font-size:12px;
+}
+#tableLink a
+{
+	color:#0066FF;
+	text-decoration:none;
+}
+#tableLink a:hover
+{
+	color:#FF0000;
+}
+#actionVerbTable td
+{
+	border-bottom:1px dotted #CCCCCC;
+	height:25px;
+	font-family: Arial; font-size: 12px;
+}
+/*footer*/
+
+#footer
+{
+	font-family: SolaimanLipi;
+	font-size:16px;
+	color:#0168d8;
+}
+#footer a
+{
+	color:#0168d8;
+	text-decoration:none;
+}
+#footer a:hover
+{
+	color:#FF0000;
+}
+.Instruction{
+	font-family:arial;
+	font-size:10px;
+	color:#797676;
+}
+/*##################################### ends here #########################*/
+
+
+.BDJGrayArial12px{
+	font-family:arial;
+	font-size:12px;
+	color:#7f7c7c;
+}
+.BDJGrayArial11px{
+	font-family:arial;
+	font-size:11px;
+	/*color:#7f7c7c;*/
+	color:#535a62;
+}
+.BDJRedArial11px{
+	font-family:arial;
+	font-size:11px;
+	color:#ff0000;
+}
+.BDJRedArial12px{
+	font-family:arial;
+	font-size:12px;
+	color:#f45023;
+	text-decoration:none;
+}
+.BDJSearchResultGreen{
+	font-family:arial;
+	font-size:11px;
+	color:#44700a;
+}
+.BDJSearchResultRed{
+	font-family:arial;
+	font-size:11px;
+	color:#dc4104;
+	line-height:1;
+}
+.BDJCompanyName{
+	font-family:verdana;
+	color:#57575f;
+	font-size:14px;
+	font-weight:bold;
+}
+.BDJGreenArial11px{
+	font-family:arial;
+	font-size:11px;
+	color:#268209;
+	text-decoration:none;
+}
+.BDJBlueArial12px{
+	font-family:arial;
+	font-size:12px;
+	color:#0036fe;
+	text-decoration:none;
+}
+.BDJGreenVerdana11px{
+	font-family:verdana;
+	font-size:11px;
+	color:#268209;
+	text-decoration:none;
+}
+.BDJNavLink{
+	font-family:verdana;
+	font-size:11px;
+	color:#fd7700;
+	text-decoration:none;
+}
+.BDJNavLinkSelected{
+	font-family:verdana;
+	font-size:11px;
+	color:#fd7700;
+	font-weight:bold;
+	text-decoration:none;	
+}
+.BDJNavLink:hover{
+	color:#FF0000;
+}
+.BDJResultLink
+{
+	font-family:Arial;
+	color:#044bfe;
+}
+
+.BDJTopMenuNormal{
+	font-family: SolaimanLipi;
+	font-size:16px;
+	color:#627ff2;
+	font-weight:normal;
+	text-decoration:none;
+}
+.BDJTopMenuNormal:hover{
+	color:#ff0000;
+}
+.BDJTopMenuDivider{
+	font-family:Arial;
+	font-size:10px;
+	color:#627ff2;
+	margin-left:27px;
+	margin-right:27px;
+}
+.BDJTopMenuDivider2{
+	font-family:Arial;
+	font-size:10px;
+	color:#627ff2;
+	margin-left:7px;
+	margin-right:7px;
+}
+.BDJTopMenuSelected{
+	font-family:verdana;
+	font-size:10px;
+	color:#fd7700;
+	font-weight:bold;
+	text-decoration:none;
+}
+.BDJtabNormal{
+	font-family:arial;
+	font-size:12px;
+	color:#5671bd;
+	font-weight:bold;
+	border-bottom:1px solid #8496d7;
+	background-color:#f2f2f5;
+}
+.BDJtabSelected{
+	font-family:arial;
+	font-size:12px;
+	color:#fd7700;
+	font-weight:bold;
+	border-left:1px solid #8496d7; 
+	border-right:1px solid #8496d7;
+	border-top:1px solid #8496d7;
+	background-color:#f6f9f5;
+
+}
+.BDJtabLinkNormal{
+	font-family:arial;
+	font-size:12px;
+	color:#5671bd;
+	font-weight:bold;
+	text-decoration:none;
+}
+.BDJtabLinkSelected{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#fd7700;
+	font-weight:bold;
+	text-decoration:none;
+}
+.BDJArial11{
+	font-family:arial;
+	font-size:11px;
+	color:#fd7700;
+	font-weight:bold;
+	text-decoration:none;
+}
+.BDJtabDisabled{
+	font-family:arial;
+	font-size:12px;
+	color:#9ba2b7;
+	font-weight:bold;
+	border-bottom:1px solid #8496d7;
+	background-color:#f2f2f5;
+}
+.BDJGrayTxt{
+	font-family:arial;
+	font-size:12px;
+	color:#b7b7b7;
+	font-weight:bold;
+	border-bottom:1px solid #8496d7;
+	background-color:#f2f2f5;
+}
+
+#BDJTabLinkSelected{
+	font-family:arial;
+	font-size:13px;
+	color:#268209;
+	font-weight:bold;
+	display:block;
+	cursor:hand;
+	text-decoration:none;
+	height:27px;
+	padding-top:5px;	
+}
+#BDJTabLinkNormal{
+	text-decoration:none;
+	background-color:#E7FDD5;
+	font-family:arial;
+	font-size:13px;
+	color:#268209;
+	font-weight:bold;
+	display:block;
+	cursor:hand;
+	height:27px;
+	padding-top:5px;
+}
+.BDJLebels{
+	font-family: SolaimanLipi;
+	font-size:18px;
+	color:#226ec7;
+	padding-right:7px;
+	padding-left:7px;
+}
+.BDJValues{
+	font-family:verdana;
+	font-size:11px;
+	color:#7f7c7c;
+	padding-left:7px;
+}
+.BDJValues2{
+	font-family:arial;
+	font-size:12px;
+	color:#000000;
+}
+.BDJValues3{
+	font-family:arial;
+	font-size:12px;
+	color:#000000;
+	padding-left:8px;
+}
+.BDJAgentList{
+	font-family:verdana;
+	font-size:12px;
+	color:#000000;
+	padding-right:7px;
+	padding-left:7px;
+	line-height:1.5;
+}
+.BDJAgentResult{
+	font-family:arial;
+	font-size:10px;
+	color:#000000;
+}
+.BDJWelcomeTxt{
+	font-family: SolaimanLipi;
+	font-size:14px;
+	color:#000000;
+	text-align:justify;
+}
+.BDJValign{
+	vertical-align:middle;
+}
+
+.BDJForgotVerdana12{
+	font-family:verdana;
+	font-size:12px;
+	color:#82af58;
+	text-decoration:none;
+}
+.BDJCreateNew{
+	font-family:verdana;
+	font-size:12px;
+	color:#82af58;
+	text-decoration:none;
+}
+.BDJPanelNavNormal:hover{
+	color:#ff0000;
+}
+.BDJPanelNavSelected{
+	font-family:verdana;
+	font-size:11px;
+	color:#fd7700;
+	text-decoration:none;
+	font-weight:bold;
+	padding-left:7px;
+}
+.BDJtextBox{
+	border:1px solid #CDDBE4;
+	vertical-align:middle;
+	height:24px;
+	font-family:arial;
+	font-size:12px;
+	color:#575a55;
+	padding:4px;
+}
+#BDJButton{
+	 background-position:left; 
+	 background-repeat:no-repeat; 
+	 background-color:#EEEFF1; 
+	 border:1px solid #CDDBE4; 
+	 height:23px;
+	 font-family:tahoma;
+	 font-weight:bold;
+	 font-size:11px;
+	 color:#69A359;
+	 vertical-align:middle;
+	 padding-left:5px;
+	 padding-right:5px;
+	 background-image:url(../errormessages/404.htm); background-repeat:repeat-x;
+}
+#BDJButtonNextActive{
+	 background-image:url(../errormessages/404.htm);
+	 background-position:right; 
+	 background-repeat:no-repeat; 
+	 background-color:#EEEFF1; 
+	 border:1px solid #97C16F; 
+	 height:23px;
+	 font-family:Arial;
+	 font-weight:bold;
+	 font-size:12px;
+	 color:#69A359;
+	 padding-left:5px;
+	 padding-right:10px;
+}
+#BDJButtonNextDisabled{
+	 background-image:url(../errormessages/404.htm);
+	 background-position:right; 
+	 background-repeat:no-repeat; 
+	 background-color:#EEEFF1; 
+	 border:1px solid #97C16F; 
+	 height:23px;
+	 font-family:Arial;
+	 font-weight:bold;
+	 font-size:12px;
+	 color:#c0c0c0;
+	 padding-left:5px;
+	 padding-right:10px;
+}
+#BDJButtonBackActive{
+	 background-image:url(../errormessages/404.htm);
+	 background-position:left; 
+	 background-repeat:no-repeat; 
+	 background-color:#EEEFF1; 
+	 border:1px solid #97C16F; 
+	 height:23px;
+	 font-family:Arial;
+	 font-weight:bold;
+	 font-size:12px;
+	 color:#69A359;
+	 padding-left:10px;
+	 padding-right:5px;
+}
+#BDJButtonBackDisabled{
+	 background-image:url(../errormessages/404.htm);
+	 background-position:left; 
+	 background-repeat:no-repeat; 
+	 background-color:#EEEFF1; 
+	 border:1px solid #97C16F; 
+	 height:23px;
+	 font-family:Arial;
+	 font-weight:bold;
+	 font-size:12px;
+	 color:#c0c0c0;
+	 padding-left:10px;
+	 padding-right:5px;
+}
+
+#BDJButton2{
+	 background-position:left; 
+	 background-repeat:no-repeat; 
+	 background-color:#97c16f; 
+	 border:1px solid #53993f; 
+	 height:23px;
+	 font-family:Arial;
+	 font-weight:bold;
+	 font-size:12px;
+	 color:#FFFFFF;
+	 padding-left:10px;
+	 padding-right:2px;
+}
+
+#BDJButtonBig{
+	 background-position:left; 
+	 background-repeat:no-repeat; 
+	 border-top:1px solid #E1E6DE; 
+	 border-left:1px solid #E1E6DE; 
+	 border-right:1px solid #97C16F; 
+	 border-bottom:1px solid #97C16F; 
+	 height:30px;
+	 font-family:Arial;
+	 font-weight:bold;
+	 font-size:12px;
+	 color:#FFFFFF;
+	 padding-left:10px;
+	 padding-right:2px;
+}
+#comboBig{
+	font-family:Arial;
+	font-size:11px;
+}
+.BDJtextarea{
+	border:1px solid #CDDBE4;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:11px;
+}
+
+.BDJtextarea2{
+	border:1px solid #cfcccc;
+	vertical-align:middle;
+	font-family:Arial;
+	font-size:12px;
+}
+.BDJButton{
+ background-color:#aaacbc;
+ font-family:verdana;
+ font-size:12px;
+ color:#2d428d;
+ font-weight:bold;
+ border:1px solid #FFFFFF;
+ 
+ 
+ 	border: 1px solid;
+	border-top-color:#c4c5d0;
+	border-left-color:#c4c5d0;
+	border-right-color:#90919a;
+	border-bottom-color:#90919a;
+
+	width: 90px;
+	height:20px;
+	cursor:hand;
+}
+.BDJButton2{
+ background-color:#f2f2f5;
+ font-family:verdana;
+ font-size:11px;
+ color:#97c16f;
+ border:1px solid #97c16f;
+
+
+	width: 70px;
+	height:20px;
+	cursor:hand;
+}
+.BDJButton3{
+ background-color:#CBCCD1;
+ font-family:verdana;
+ font-size:11px;
+ color:#7E7F82;
+ border:1px solid #FFFFFF;
+ 
+ 
+ 	border: 1px solid;
+	border-top-color:#A1A2A6;
+	border-left-color:#A1A2A6;
+	border-right-color:#D9DBE0;
+	border-bottom-color:#D9DBE0;
+
+	height:20px;
+	cursor:hand;
+}
+.BDJButton4{
+ background-color:#aaacbc;
+ font-family:verdana;
+ font-size:12px;
+ color:#2d428d;
+ font-weight:bold;
+ border:1px solid #FFFFFF;
+ 
+ 
+ 	border: 1px solid;
+	border-top-color:#c4c5d0;
+	border-left-color:#c4c5d0;
+	border-right-color:#90919a;
+	border-bottom-color:#90919a;
+
+
+	height:20px;
+	cursor:hand;
+}
+.BDJRequired{
+	font-family:verdana;
+	font-size:15px;
+	color:#ff2828;
+	height:20px;
+	width:20px;
+	border:0px;
+	background-color:#EDF0F9;
+	padding-top:5px;
+}
+.BDJInstruction{
+	font-family:arial;
+	font-size:10px;
+	color:#797676;
+	line-height:1;
+}
+
+.BDJInstruction2{
+	font-family:arial;
+	font-size:11px;
+	color:#8aae79;
+}
+.BDJPageBorder{
+	border-left:1px solid #c3c1c1;
+	border-right:1px solid #c3c1c1;
+	border-bottom:1px solid #c3c1c1;
+	background-color:#FFFFFF;
+}
+.BDJCopyright{
+ font-family:verdana;
+ font-size:11px;
+ color:#64a228;
+ padding-bottom:15px;
+
+}
+.BDJNoticeVerdana11Red
+{
+	font-family:verdana;
+	color:#FF0000;
+	font-size:11px;
+	text-decoration:none;
+}
+/*##################*/
+
+#BDJmenu td a
+	{
+		 
+		COLOR: #fd7700;
+		background-image:url(../errormessages/404.htm);
+		background-repeat:repeat-y;
+		vertical-align:middle;
+		padding-left:7px;
+		text-decoration:none;
+		DISPLAY: block;
+		HEIGHT:28PX;
+		FONT-SIZE: 11px;
+		FONT-FAMILY: verdana; 
+}
+
+#BDJmenu td a:hover {
+	COLOR: #000000;
+	BACKGROUND:#CED2D3 no-repeat;
+	background-image:url(../errormessages/404.htm);
+	background-repeat:repeat-y;
+}
+#BDJmenu td a.selected {
+	FONT-WEIGHT: bold; 
+	background-image:url(../errormessages/404.htm);
+	background-repeat:repeat-y;
+}
+
+#BDJmenu td a:visited 
+	{
+		 
+		COLOR: #fd7700;
+		/*background-image:url(../images/btn_bg_n.gif);*/
+		background-repeat:repeat-y;
+		vertical-align:middle;
+		padding-left:7px;
+		text-decoration:none;
+		DISPLAY: block;
+		HEIGHT:28PX;
+		FONT-SIZE: 11px;
+		FONT-FAMILY: verdana; 
+}
+/*##########################*/

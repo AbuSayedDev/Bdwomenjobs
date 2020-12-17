@@ -1,0 +1,95 @@
+*, ul, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #212121;
+}
+img{
+	max-width: none;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	width: auto;
+	height: auto;
+}
+html, body{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #eeeeee;
+}
+a{
+	color: #212121;
+}
+a, a:hover, .btn, .btn:hover, a:focus{
+	text-decoration: none;
+    -webkit-transition-duration: .1s;;
+    -o-transition-duration: .1s;;
+    transition-duration: .1s;;
+    outline: none;
+}
+
+.page-content{padding: 20px; background-color: #eee;}
+@media only screen and (min-width:0px) and (max-width: 767px){
+.page-content{padding:10px 0px 10px 0px; background-color: #eee;}
+}
+
+.boxed { background: #fff; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; -webkit-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26); -moz-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);	position: relative;	padding:20px 20px 5px 20px; margin:0px 0px 10px 0px;}
+
+.boxed blockquote{ 
+	padding: 20px 20px; margin: 0 0 20px; font-size: 17.5px; border-left:3px solid #fff; background-color:#fefefe; -webkit-box-shadow: 0 0 4px rgba(58, 51, 46, 0.26); -moz-box-shadow: 0 0 4px rgba(58, 51, 46, 0.26);
+box-shadow: 0 0 4px rgba(58, 51, 46, 0.26);}
+
+blockquote small{
+    margin: 0px 0px 10px 0px;
+}
+blockquote small:before, blockquote .small:before {
+    content: '';
+}
+.boxed blockquote h4{ color:#757575; font-size:19px; line-height:24px; margin: 0px 0px 10px 0px;}
+
+.cont-wrap { position: relative;}
+.jg-b { width: 160px; overflow:hidden; margin:10px auto 20px auto; display:block;}
+@media only screen and (min-width : 0px) and (max-width : 991px) {
+.jg-b {display:none;}
+}
+
+/*Advertise*/
+.jgads{ margin:10px auto 0px auto; vertical-align: middle; display:inline-block;}
+.jgads .js-gads{ width:728px;}
+@media only screen and (min-width:0px) and (max-width: 767px){
+.jgads .js-gads{width:350px;}
+}
+@media only screen and (min-width:768px) and (max-width: 991px)  {
+.jgads .js-gads{ width:350px;}
+}
+@media only screen and (min-width:992px) and (max-width:1199px)  {
+.jgads .js-gads{ width:428px;}
+}
+
+.s-title{color:#2f64a3; font-size:16px; font-weight:bold;}
+.t-title h3{color:#fd7700; font-size:16px; font-weight:bold; margin:5px 0px 10px 0px;}
+.pcont ol, .pcont ul{color:#757575; margin:5px 0px 0px 0px; padding:0px 0px 0px 20px; line-height:22px;}
+.pcont ol li, .pcont ul li{padding-bottom:5px; font-size:13px;}
+.pcont-b ol, .pcont-b ul{color:#757575; margin:5px 0px 0px 0px; padding:0px 0px 0px 20px; line-height:22px;}
+.pcont-b ol li, .pcont-b ul li{padding-bottom:5px; font-size:13px;}
+.pcont-b .lq{color:#2f64a3;}
+.pcont-b ol li small{margin:5px 0px 10px 0px; font-size:13px;}
+.pcont-b ol li small ul{color:#757575; margin:5px 0px 0px 0px; padding:0px 0px 0px 20px; line-height:22px;}
+.pcont-b ol li small ul li{padding-bottom:5px; font-size:13px; list-style:circle;}
+.p-title{ margin:0px 0px 15px 0px;}
+.p-title h3{ color:#268209;}
+.a-title{ margin:5px 0px 5px 0px;}
+.a-title h4{ color:#fd7700; font-weight:bold;}
+.s-p span{ color:#757575; font-size:14px;}
+.s-p .panel-body{ padding:5px 10px 10px 10px;}
+.s-p .input-group{ margin:5px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.g-button{border: 1px solid rgb(67, 160, 71); background:#43a047; color:#fff; font-size:12px; line-height:20px;}
+.g-button:hover, .g-button:active, .g-button:focus{ background:#39873d;color:#fff;}
+.boxed .panel-title{ font-weight:bold; color:#757575; font-size:14px;}
+.boxed .panel-body ul{color:#757575; margin:0px 0px 0px 0px; padding:0px 0px 0px 20px; line-height:18px;}
+.boxed .panel-body ul li{padding-bottom:5px; font-size:13px; list-style:square;}
+.boxed .panel-body ul li span{font-weight:bold; color:#default;}
+.boxed .panel-body ul li a{color:#757575;}
+.boxed .panel-body ul li a:hover{color:#757575; text-decoration:underline;}

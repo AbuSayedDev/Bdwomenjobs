@@ -1,0 +1,49 @@
+/*LOGING PAGE*/
+.signin-body{
+	background-image: url(https://mybdjobs.bdjobs.com/mybdjobs/images/login_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: initial;
+}
+.signin-user-wrapper{
+    margin: 0px 0 0 0;
+}
+.signin-user-wrapper .btn-back{
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+.signin-user-wrapper .btn-back:hover{
+	color: #000000;
+}
+.signin-user-wrapper .btn-back:focus{
+	box-shadow: none;
+}
+.signin-user-info img{
+    height: 84px;
+    width: 84px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.signin-user-wrapper h4 {
+   font-size: 18px;
+   color: #2F64A3;
+   margin: 0 0 10px 0;
+}
+.signin-user-wrapper h5 {
+   color: #000000;
+   font-weight: 600;
+}
+.otp-container{
+    text-align: center;
+}
+.signin-form{
+	padding: 25px 30px;
+}
+.fpassword{
+     padding-top: 12px;
+    font-size: 13px;
+}
+.signin-form .text-danger{
+    font-size: 13px;
+    font-weight: 600;
+}

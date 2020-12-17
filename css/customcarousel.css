@@ -1,0 +1,258 @@
+/* .carousel */
+
+.carousel .carousel-inner {
+  display: static;
+}
+
+.carousel .carousel-item {
+  display: none;
+  max-width: 100%;
+  width: 100%;
+}
+
+.carousel .carousel-item.active {
+  display: block;
+}
+
+/* More like bootstrap, less accessible */
+
+/* Shared CSS for Pause, Next and Previous Slide Controls */
+
+.carousel .controls {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+.carousel .controls button {
+  position: absolute;
+  top: 6px;
+  display: block;
+  background-color: transparent;
+  border: none;
+}
+
+.carousel .controls button.previous {
+  right: 58px;
+}
+
+.carousel .controls button.next {
+  right: 4px;
+}
+
+.carousel .controls button.rotation {
+  left: 4px;
+}
+
+.carousel .controls button svg rect.background {
+  stroke: black;
+  fill: black;
+  stroke-width: 1px;
+  opacity: 0.8;
+}
+
+.carousel .controls button svg rect.border {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 2px;
+}
+
+/* Next and Previous Slide Controls */
+
+.carousel .controls button svg polygon {
+  stroke: white;
+  fill: white;
+  stroke-width: 2;
+  opacity: 1;
+}
+
+.carousel .controls button.rotation svg polygon.pause {
+  stroke-width: 4;
+  fill: transparent;
+  stroke: transparent;
+}
+
+.carousel .controls button.rotation svg polygon.play {
+  stroke-width: 1;
+  fill: transparent;
+  stroke: transparent;
+}
+
+.carousel .controls button.rotation.pause svg polygon.pause,
+.carousel .controls button.rotation.play svg polygon.play {
+  fill: white;
+  stroke: white;
+}
+
+/* Common focus styling for svg buttons */
+
+.carousel .controls button:focus rect.background,
+.carousel .controls button:hover rect.background,
+.carousel .controls button:focus rect.border,
+.carousel .controls button:hover rect.border {
+  fill: #005a9c;
+  stroke: #005a9c;
+  opacity: 1;
+}
+
+.carousel .controls button:focus rect.border {
+  stroke: white;
+}
+
+/* Caption Positioning */
+
+.carousel .carousel-items {
+  width: 100%;
+}
+
+.carousel .carousel-items.focus {
+  border-color: #005a9c;
+}
+
+.carousel .carousel-item .carousel-image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.carousel .carousel-item .carousel-image a {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel .carousel-item .carousel-image a img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.carousel .carousel-item .carousel-caption {
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+
+
+ 
+.govtJobs .carousel-caption {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-shadow: none;
+}
+.govtJobs .carousel .controls button span {
+  background-color:transparent;
+  color: #29612B;
+}
+.govtJobs .carousel .controls button.rotation.pause span.pause{
+  display: block;
+}
+.govtJobs .carousel .controls button.rotation.paus span.play{
+  display: none;
+}
+.govtJobs .carousel .controls button.rotation.play span.play{
+  display: block;
+}
+.govtJobs .carousel .controls button.rotation.play span.pause{
+  display: none;
+}
+.govtJobs .carousel .controls button span.play{
+  display: none;
+}
+.govtJobs .carousel .controls button:focus span {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.govtJobs .carousel-inner {
+  height: 265px;
+  max-height: 265px;
+  overflow-y: auto;
+}
+.govtJobs .carousel .carousel-items {
+  width: 100%;
+  min-height: 248px;
+  max-height: 248px;
+}
+.govtJobs .carousel .controls {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0px;
+  z-index: 10;
+  height: auto;
+  display: block;
+  width: 50%;
+  float: right;
+}
+.govtJobs .carousel .controls button {
+  position: absolute;
+  display: block;
+  background-color: transparent;
+  border: none;
+  top: 0px;
+}
+.govtJobs .carousel .controls button.previous {
+  right: 25px;
+}
+
+
+
+
+
+
+
+#promotional-carousal .carousel-inner {
+  height: 270px;
+  max-height: 270px;
+}
+#promotional-carousal .carousel-caption {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-shadow: none;
+  text-align: center;
+}
+#promotional-carousal .carousel .controls {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0px;
+  z-index: 2;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+#promotional-carousal .carousel .controls .border {
+  height: 20px;
+  width: 34px;
+  border: 2px solid #ffffff;
+  padding: 0px;
+  float: left;
+  border-radius: 12px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+

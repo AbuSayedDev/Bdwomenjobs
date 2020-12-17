@@ -1,0 +1,121 @@
+p,h1,h2,h3,h4,h5,h6,span{
+	font-family: 'SolaimanLipi', Open Sans, ui-icon;
+}
+.searchPanelContainer h1{
+	font-family: 'SolaimanLipi';
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 16px;
+	font-family: 'SolaimanLipi', Open Sans;
+	white-space: nowrap;
+	font-weight: normal;
+}
+.navbar-user .btn-login{
+	font-size: 15px;
+	padding: 4px 12px;
+	font-family: 'SolaimanLipi';
+}
+.navbar-user .btn-login:hover{
+	background-color: #39873d;
+	color: #ffffff;
+}
+.navbar-user ul li.offset-mobile a{
+	font-size: 16px;
+	color: #424242;
+	font-weight:normal;
+}
+.navbar-user ul li.offset-mobile a:hover{
+	color: #2F64A3;
+}
+.navbar-user{
+	font-size: 14px;
+	font-weight: bold;
+}
+.sliderSidebar h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.counter h6 {
+    font-size: 20px;
+}
+.counter p {
+	line-height: 14px;
+	font-family: 'SolaimanLipi';
+	font-weight: bold;
+}
+
+.live-jobs, .companies, .apply-online{
+	float: left;
+	overflow: hidden;
+	width: 170px;
+}
+.live-jobs, .companies, .apply-online{
+	float: left;
+	overflow: hidden;
+	width: 160px;
+}
+.companies{
+	width: 140px;
+}
+.apply-online{
+	width: 280px;
+}
+.navbar-user > .btn-login{
+	font-family: 'SolaimanLipi', Open Sans;
+}
+.companyDetails h5{
+	font-size: 14px;
+	font-weight: bold;
+}
+.category-list ul li{
+	margin-bottom: 14px;
+}
+.sidebar-common a.btn-view-more {
+    font-size: 15px;
+    font-family: SolaimanLipi;
+}
+.search-form .btn{
+	padding: 7px 31px;
+	font-family: 'SolaimanLipi';
+}
+
+.topBar ul.brands li a{
+	font-size: 15px;
+	font-family: 'SolaimanLipi';
+	padding: 7px 10px 7px 10px;
+}
+.lang-btn .btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+}
+a.for-employers span{
+	font-size: 12px;
+}
+#toTop{
+	padding-top: 5px;
+}
+.navbar-nav > li > a{
+	font-family: 'SolaimanLipi';
+}
+.job-seekers, .for-employers{
+	padding:40px;
+}
+.lang-btn .btn:last-child{
+	padding-top: 1px;
+}
+.contact-btn i{
+	font-size: 12px;
+} 
+.login-form .tab .btn{
+	font-family: 'SolaimanLipi';
+	font-size: 16px;
+}
+
+.sidebar-common {
+    height: 201px;
+}
+
+.sidebar-common .pager {
+    padding: 21px 0px;
+}

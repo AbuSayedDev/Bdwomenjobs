@@ -1,0 +1,60 @@
+*, ul, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #212121;
+}
+img{
+	max-width: none;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	width: auto;
+	height: auto;
+}
+html, body{
+	font-family: 'Ubuntu', sans-serif, 'SolaimanLipi';
+	background-color: #eeeeee;
+}
+
+.page-content{padding: 20px; background-color: #eee;}
+@media only screen and (min-width:0px) and (max-width: 767px){
+.page-content{padding:10px 0px 10px 0px; background-color: #eee;}
+}
+
+.boxed { background: #fff; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; -webkit-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26); -moz-box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);
+box-shadow: 0 0 8px rgba(58, 51, 46, 0.26);	position: relative;	padding:0px 20px 15px 20px;}
+
+.cont-wrap { position: relative; background:#fff;}
+.left {float:left; width:100%;}
+.left-content { margin-right:170px;}
+.right { float:right; width: 160px; margin-left: -160px; background-color:#eee;}
+@media only screen and (min-width : 0px) and (max-width : 767px) {
+.left { float:none; width:100%;}
+.left-content {	width: auto; margin-right:0px;}	
+.right {display:none;}
+}
+
+/*Advertise*/
+.jgads{ margin:10px auto 0px auto; vertical-align: middle; display:inline-block;}
+.jgads .js-gads{ width:728px;}
+@media only screen and (min-width:0px) and (max-width: 767px){
+.jgads .js-gads{width:350px;}
+}
+@media only screen and (min-width:768px) and (max-width: 991px)  {
+.jgads .js-gads{ width:350px;}
+}
+@media only screen and (min-width:992px) and (max-width:1199px)  {
+.jgads .js-gads{ width:428px;}
+}
+
+.pcont ol{color:#757575; margin:5px 0px 0px 0px; padding:0px 0px 10px 20px; line-height:22px;}
+.pcont ol li{padding-bottom:8px; font-size:13px;}
+.p-title{ margin:20px 0px 15px 0px;}
+.p-title h3{ color:#268209;}
+.pcont p{line-height: 19px; margin-bottom: 16px; color:#757575; font-size:13px;  }
+/* .pcont p{line-height: 19px; margin-bottom: 16px; color:#757575; font-size:13px; text-align:justify;}
+ */
+.s-title{color:#757575; font-size:15px; font-weight:bold; border-bottom:1px solid #EAEAEA; padding:0px 0px 5px 20px; margin:0px 0px 10px 0px; background-image:url(../images/angle-right.png); background-repeat:no-repeat;}

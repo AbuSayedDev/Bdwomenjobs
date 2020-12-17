@@ -1,0 +1,76 @@
+.app-icon-change {
+    width: 250px;
+    height: 125px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    z-index: 1;
+    border: 2px solid #E0E0E0;
+    background-color: #FFFFFF;
+}
+
+.app-icon-change .app-icon {
+    position: relative;
+}
+
+.app-icon-change .icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 8px;
+}
+
+.app-icon-change .app-icon .old.icon {
+    right: calc(50% - 30px);
+}
+
+.app-icon-change .app-icon .new.icon {
+    left: 100%;
+}
+
+.app-icon-change .learn-more {
+    background-color: #f9a825;
+    color: #000000;
+    margin-top: 80px;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: none;
+    outline: none;
+}
+
+.app-icon-change .learn-more img {
+    margin-left: 15px;
+    width: 12px;
+}
+
+.app-icon-change .close-icon {
+    font-size: 18px;
+    color: rgba(0, 0, 0, .60);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.app-icon-change.small {
+    cursor: pointer;
+}
+
+.app-icon-change.small .close-icon {
+    display: none;
+}
+
+.app-icon-change.small .learn-more {
+    display: none;
+}
+.app-icon-change.small .app-icon .old.icon {
+    display: none !important;
+}
+.app-icon-change.small .app-icon .new.icon {
+    left: 9px !important;
+}

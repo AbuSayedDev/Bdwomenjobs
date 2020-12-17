@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.nav-tabs {
+    border-bottom: 1px solid #fff;
+    margin: 15px 0px 0px 0px;
+}
+
+.nav.nav-tabs li a {
+    padding: 10px 5px 10px 5px;
+}
+
+.nav-tabs>li>a {
+    background-color: #babdc0;
+    color: #555555;
+    margin-right: 2px;
+    line-height: 16px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.nav-tabs>li>a:hover {
+    background-color: #babdc0;
+}
+
+.tab-pane {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    -webkit-border-radius: 0px 8px 8px 8px;
+    -moz-border-radius: 0px 8px 8px 8px;
+    border-radius: 0px 8px 8px 8px;
+    clear: both;
+}
+
+.tab-cont {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.tab-cont table {
+    width: 100%;
+}
+
+.cat-litem-wrapper {
+    margin: 0px 10px 0px 0px;
+    font-size: 15px;
+    color: #1457a1;
+    line-height: 22px;
+    vertical-align: top;
+    float: left;
+    width: 48%;
+}
+
+.cat-litem-wrapper ul {
+    font-size: 15px;
+    color: #1457a1;
+    line-height: 24px;
+    float: left;
+    width: 100%;
+    margin: 0px 0px 0px -10px;
+}
+
+.cat-litem-wrapper img {
+    margin: 0px auto 0px auto;
+}
+
+.cat-litem-wrapper a {
+    color: #1457a1;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+body.bn {
+    font-family: 'solaimanlipi', sans-serif
+}
+
+body.bn .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body.bn .title.bn {
+    font-size: 24px;
+}
+
+body.bn .count-job {
+    font-size: 16px;
+}
+
+body.bn .content-tabs li,
+body.bn .cat-litem-wrapper li {
+    font-size: 16px;
+}
+
+body.bn .cat-litem-wrapper td {
+    line-height: 30px;
+}
+
+body.bn .cat-litem-wrapper a {
+    font-size: 18px;
+}
+
+body.bn .cat-litem-wrapper h4 a {
+    font-size: 20px;
+}
+
+td a[style='color:#8595a6;']:hover,
+a[style='color:#8595a6;']:focus {
+    text-decoration: none;
+    cursor: default;
+}
+
+.bn .cat-litem-wrapper li {
+    font-size: 18px;
+}
+
+.bn-s {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+@media only screen and (min-width:0px) and (max-width: 767px) {
+    .cat-litem-wrapper {
+        width: 100%;
+        float: none;
+    }
+    .cat-litem-wrapper ul li {
+        padding-bottom: 10px;
+        font-size: 11px;
+    }
+    .cat-litem-wrapper ul li a {
+        word-wrap: break-word;
+    }
+    .tab-pane {
+        padding: 10px 0px;
+    }
+    .nav.nav-tabs li {
+        display: inline-block;
+        width: 33.33%;
+        font-size: 11px;
+        padding: 0px;
+    }
+    .nav.nav-tabs li.bn-s {
+        font-size: 15px;
+    }
+    .nav.nav-tabs li a {
+        min-height: 55px !important;
+    }
+    body.bn .cat-litem-wrapper li,
+    body.bn .content-tabs li {
+        font-size: 14px;
+    }
+    .title,
+    .count-job {
+        text-align: center;
+    }
+}
+
+
+/* Animation */
+
+.tab-pane.active .tab-cont {
+    -webkit-animation: cfadeIn 1s;
+    animation: cfadeIn 1s;
+}
+
+@-webkit-keyframes cfadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes cfadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border: 1px solid #ccc;
+}
+
+.nav-tabs>li>a {
+    border: none;
+    color: #555555;
+    background: #babdc0;
+    border: 1px solid #ccc;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover {
+    border: none;
+    color: #555555 !important;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.nav-tabs>li>a::after {
+    content: "";
+    background: #babdc0;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.nav-tabs>li.active>a::after,
+.nav-tabs>li:hover>a::after {
+    transform: scale(1);
+}
+
+.tab-nav>li>a::after {
+    background: #babdc0 none repeat scroll 0% 0%;
+    color: #555555;
+}
+
+.nav-tabs>li.active>a::after {
+    content: "";
+    background: #ffffff;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(1);
+}

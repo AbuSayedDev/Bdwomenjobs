@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'Noto Sans Bengali UI';
+    src: url('../fonts/NotoSansBengaliUI-Bold.eot');
+    src: url('../fonts/NotoSansBengaliUI-Boldd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/NotoSansBengaliUI-Bold.woff2') format('woff2'), url('../fonts/NotoSansBengaliUI-Bold.woff') format('woff'), url('../fonts/NotoSansBengaliUI-Bold.ttf') format('truetype'), url('../fonts/NotoSansBengaliUI-Bold.svg#NotoSansBengaliUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Bengali UI';
+    src: url('../fonts/NotoSansBengaliUI.eot');
+    src: url('../fonts/NotoSansBengaliUId41d.eot?#iefix') format('embedded-opentype'), url('../fonts/NotoSansBengaliUI.woff2') format('woff2'), url('../fonts/NotoSansBengaliUI.woff') format('woff'), url('../fonts/NotoSansBengaliUI.ttf') format('truetype'), url('../fonts/NotoSansBengaliUI.svg#NotoSansBengaliUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.emp-reg-form,
+.emp-reg-success {
+    color: #000000;
+}
+
+.emp-reg-form .page-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.emp-reg-form .sec-title {
+    color: #337AB7;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.emp-reg-form .company-address {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.emp-reg-form .form-group>label {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.emp-reg-form hr {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-color: #E5E5E5;
+}
+
+.emp-reg-form .address-wrap .form-group>label {
+    margin-bottom: 0px;
+}
+
+.emp-reg-form .address-wrap .com-addr-tab {
+    margin-bottom: 20px;
+}
+
+.emp-reg-form .address-wrap :checked+label {
+    padding: 12px 7px;
+    color: #fff;
+    background-color: #0E73A9;
+    border: 0px;
+}
+
+.emp-reg-form .address-wrap .insideBD {
+    border-radius: 6px 0px 0px 6px;
+    border-right: 0px;
+    float: left;
+}
+
+.emp-reg-form .address-wrap label {
+    width: 50%;
+    padding: 10px 5px;
+    color: #0E73A9;
+    margin: 0px;
+    border: 2px solid #0E73A9;
+    font-weight: normal;
+    cursor: pointer;
+    text-align: center;
+}
+
+.emp-reg-form .address-wrap .outsideBD {
+    border-radius: 0px 6px 6px 0px;
+    border-left: 0px;
+}
+
+.emp-reg-form .industry-type {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.emp-reg-form .industrys-wrap {
+    max-height: 225px;
+    overflow-y: scroll;
+    width: 100%;
+    border: 2px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 10px;
+}
+
+.emp-reg-form .industrys {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.emp-reg-form .selected-industrys ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.emp-reg-form .selected-industrys ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.emp-reg-form .selected-industrys ul li .name {
+    margin: 0px;
+    padding: 3px 10px;
+    background-color: #E8E8E8;
+    border-radius: 16px;
+}
+
+.emp-reg-form .selected-industrys ul li .remove {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.emp-reg-form .selected-industrys ul li .remove i {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #707070;
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+}
+
+.emp-reg-form .industrys .checkbox-inline {
+    margin-bottom: 15px;
+}
+
+.emp-reg-form .business {
+    padding-top: 10px;
+}
+
+.emp-reg-form .primary-contact {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.emp-reg-form .refresh {
+    margin-top: 8px;
+}
+
+.emp-reg-form .refresh a {
+    text-decoration: none;
+    color: #1976D2;
+}
+
+.emp-reg-form .refresh i {
+    margin-right: 5px;
+}
+
+.emp-reg-form .accordionButton {
+    padding-left: 0px !important;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    border-collapse: separate;
+    margin-bottom: 10px;
+}
+
+.emp-reg-form .accordionButton.on i {
+    transform: rotate(180deg);
+}
+
+.emp-reg-form .pricing-policy {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px;
+}
+
+.emp-reg-form .down-icon i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    background: #E8E8E8;
+    margin-left: 8px;
+    color: #616161;
+}
+
+.emp-reg-form .policy-accept {
+    margin-bottom: 35px;
+}
+
+.emp-reg-form .policy-accept label {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.emp-reg-form .continue {
+    display: inline-flex;
+    align-items: center;
+    background: #5CB85C;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 22px;
+    outline: 0px !important;
+    box-shadow: none;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    transition: all linear 0.3s;
+}
+
+.emp-reg-form .continue:hover {
+    background: #449D44;
+}
+
+.emp-reg-form .continue i {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.emp-reg-form .has-error .form-control {
+    border: 2px solid #DC3545;
+}
+
+.emp-reg-form .has-error .error-msg {
+    margin: 0px;
+    color: #DC3545;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.emp-reg-form .has-error .error-msg a {
+    font-weight: bold;
+    color: #DC3545;
+    text-decoration: none;
+}
+
+.emp-reg-form .bn {
+    font-family: 'Noto Sans Bengali UI';
+}
+
+.emp-reg-form .form-group {
+    margin-bottom: 20px;
+}
+
+.emp-reg-form .form-control {
+    border: 2px solid #e4e4e4;
+}
+
+.emp-reg-form .form-control:focus {
+    border: 2px solid #0E73A9;
+    box-shadow: none;
+}
+
+.emp-reg-form textarea {
+    resize: vertical;
+}
+
+.emp-reg-form .industrys-wrap .checkbox {
+    margin-top: 5px;
+}
+
+.emp-reg-form .checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.emp-reg-form .checkbox label {
+    padding-left: 25px;
+}
+
+.emp-reg-form .checkbox label:before {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.emp-reg-form .checkbox label:before,
+.emp-reg-form .checkbox label:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.emp-reg-form .checkbox input[type="checkbox"]:checked+label:before {
+    background: #1976D2;
+    border: none;
+}
+
+.emp-reg-form .checkbox input[type="checkbox"]:checked+label:after {
+    transform: rotate(-45deg);
+    top: 5px;
+    left: 4px;
+    width: 11px;
+    height: 6px;
+    border: 2px solid #fff;
+    border-top-style: none;
+    border-right-style: none;
+}
+
+.job-board.emp-reg-success {
+    text-align: center;
+    padding: 80px 40px !important;
+}
+
+.emp-reg-success .student-img {
+    display: inline-block;
+}
+
+.emp-reg-success .success-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.emp-reg-success .success-text {
+    color: #757575;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.emp-reg-success .worn-txt {
+    text-align: center;
+    font-size: 16px;
+    color: #DD2C00;
+    margin: 0px auto 24px auto;
+}
+
+.emp-reg-success .hlp {
+    padding: 12px 18px 10px 18px;
+    background-color: #FFF4D3;
+    border-left: 3px solid #9F5F00;
+    color: #9F5F00;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0px auto 30px auto;
+    max-width: 314px;
+    display: flex;
+    align-items: center;
+}
+
+.emp-reg-success .hlp i {
+    margin-left: 2px;
+}
+
+.emp-reg-success .login {
+    display: inline-flex;
+    align-items: center;
+    background: #5CB85C;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 12px 16px;
+    outline: 0px !important;
+    box-shadow: none;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    transition: all linear 0.3s;
+}
+
+.emp-reg-success .service-wrap {
+    margin-top: 30px;
+    padding: 15px 18px;
+    background-color: #CCE5FF;
+    border-radius: 8px;
+    border: 2px solid #B8DAFF;
+}
+
+.emp-reg-success .service-text {
+    color: #004085;
+    margin-bottom: 5px;
+    line-height: 21px;
+}
+
+.emp-reg-success .services-link {
+    margin-bottom: 0px;
+}
+
+.emp-reg-success .services-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #B32D7D;
+    text-decoration: none;
+}
+
+.emp-reg-success .services-link a i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:767px) {
+    .job-board.emp-reg-form {
+        padding: 20px 10px !important;
+    }
+    .emp-reg-form .page-title {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .emp-reg-form .sec-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .emp-reg-form hr {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-color: #E5E5E5;
+    }
+    .emp-reg-form .accordionButton {
+        display: table;
+    }
+    .emp-reg-form .down-icon {
+        width: 1%;
+        white-space: nowrap;
+        vertical-align: top;
+        display: table-cell;
+    }
+    .emp-reg-form .pricing-policy i {
+        margin-left: 20px;
+    }
+    .emp-reg-form .pricing-policy {
+        font-size: 16px;
+    }
+    .emp-reg-form .continue {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .emp-reg-form .OnlineCVAccess {
+        margin-bottom: 0px;
+    }
+    .emp-reg-success .success-title {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .emp-reg-success .service-wrap {
+        margin-top: 25px;
+    }
+    .emp-reg-success .hlp {
+        display: block;
+    }
+}
